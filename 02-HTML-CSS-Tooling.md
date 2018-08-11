@@ -4,7 +4,8 @@
 // TODO: description of an editor here.
 
 ### Emmett
-// TODO: description of an emmett here.
+Emmet support is built right into VS Code. You can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abbreviation. Emmet is developed and optimised for web-developers whose workflow depends on HTML and CSS.
+
 #### Emmett Abbreviations
 [A complete cheatsheet](https://docs.emmet.io/cheat-sheet/)
 
