@@ -14,3 +14,6 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
 * Chapter 3 - Command Line
 * Chapter 4 - Github
 * Chapter 5 - JavaScript
+
+## Learning Objectives
+![foundations](./foundations.png)
