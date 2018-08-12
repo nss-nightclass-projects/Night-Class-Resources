@@ -5,3 +5,7 @@
 * Chapter 2 - firebase
 * Chapter 3 - SASS
 * Chapter 4 - React
+
+
+## Learning Objectives
+![data-driven-apps](./data_driven_applications.png)
