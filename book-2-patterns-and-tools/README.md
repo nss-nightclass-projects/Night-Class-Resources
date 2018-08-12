@@ -8,3 +8,7 @@
 * Chapter 5 - JSON and XHR
 * Chapter 6 - Jquery
 * Chapter 7 - Promises
+
+
+## Learning Objectives
+![patterns-and-tools](./patterns_and_tools.png)
