@@ -11,4 +11,4 @@
 
 
 ## Learning Objectives
-![patterns-and-tools](./patterns_and_tools.png)
+![patterns-and-tools](./images/patterns_and_tools.png)
