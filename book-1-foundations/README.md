@@ -15,6 +15,7 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
   * [Command Line Basics](./chapters/command-line.md)
 * Chapter 4 - Github
   * [Github Setup](./chapters/github-setup.md)
+  * [Git and Github](./chapters/git-and-github.md)
 * Chapter 5 - JavaScript
 
 ## Learning Objectives
