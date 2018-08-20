@@ -92,6 +92,15 @@ We will talk more about this in a few weeks but for now follow these steps:
 * type `:wq`
 * hit enter
 
+## Tree
+Tree is a super helpful command line tool that lets you see all the sub directories or sub files of a particular folder.  To install it:
+
+Mac: ```>  brew install tree```
+
+Windows: ```> cmd //c tree```
+
+Once it is installed use it by going to the directory you are interested in exploring and then typing `tree` and hitting enter.
+
 ## Class File Structure
 For the next six months we will be working through three different milestones.  In order to make that go smoothly lets create a file structure so we are all coding in the same place.  Use the command line commands you just learned to create the following file structure:
 ![workspace file structure](../images/workspace_file_structure.png)
