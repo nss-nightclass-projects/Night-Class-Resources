@@ -8,4 +8,4 @@
 
 
 ## Learning Objectives
-![data-driven-apps](./data_driven_applications.png)
+![data-driven-apps](./images/data_driven_applications.png)
