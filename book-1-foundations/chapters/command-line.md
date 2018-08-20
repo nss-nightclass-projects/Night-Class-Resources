@@ -18,7 +18,8 @@ You will be using the command line EVERY day in this class.
 ## Common Commands (Unix Based)
 
 ## Class File Structure
-![workspace file structure](./images/workspace_file_structure.png)
+For the next six months we will be working through three different milestones.  In order to make that go smoothly lets create a file structure so we are all coding in the same place.  Use the command line commands you just learned to create the following file structure:
+![workspace file structure](../images/workspace_file_structure.png)
 
 ## Mini Challenge
-Move the directory `html-css-101` you created in your HTML and CSS lesson and all of its contents from the `Desktop` into the directory `~/workspace/static-web/inclass`
+Move the directory `html-css-101` you created in your HTML and CSS lesson and all of its contents from the `Desktop` into the directory `~/workspace/foundations/inclass`
