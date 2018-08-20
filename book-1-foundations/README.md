@@ -12,8 +12,10 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
   * [CSS](./chapters/CSS.md)
   * [HTML and CSS Tooling](./chapters/HTML-CSS-Tooling.md)
 * Chapter 3 - Command Line
+  * [Command Line Basics](./chapters/command-line.md)
 * Chapter 4 - Github
+  * [Github Setup](./chapters/github-setup.md)
 * Chapter 5 - JavaScript
 
 ## Learning Objectives
-![foundations](./foundations.png)
+![foundations](./images/foundations.png)
