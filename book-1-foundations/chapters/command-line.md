@@ -65,14 +65,14 @@ For all these commands `>` indicates a code block and `#` indicates a comment.  
 
     This command will delete your ENTIRE computer DON'T RUN IT
 
-    ```> rm -rf *```
+    ```> rm -rf *(SERIOUSLY DON'T RUN THIS.)```
 
 
 9. Open stuff in finder window - see things in the finder window
 
     Mac: ```>  open . # opens current folder in Finder window```
 
-    Windows: ```>  explorer . # opens current folder in Finder window```
+    Windows: ```>  explorer . # opens current folder in Explorer window```
 
 10. Learn more about command line via command line - open terminal help
 
