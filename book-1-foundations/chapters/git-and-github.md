@@ -38,3 +38,20 @@
 ```> git push origin master```
 
 ## How to Push a Simple Repository to GitHub
+1. Make a folder locally with a readme file in it
+```sh
+> cd ~/workspace/foundations/inclass
+> mkdir test
+> touch README.md
+> code .
+```
+2. put some text in the README.md file and save
+3. Make a new repository on github called test
+4. Connect the folders and push using the information provided
+```sh
+> git init
+> git add README.md
+> git commit -m "first commit"
+> git remote add origin git@github.com:zoeames/cow.git
+> git push -u origin master
+```
