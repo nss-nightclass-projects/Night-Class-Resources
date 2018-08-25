@@ -65,7 +65,7 @@ Your job is to write a function that accepts any band name as an argument. The f
 ```js
 let bandNumber = 1
 
-const takeNumber = function () {
+const takeNumber =  () => {
   /*
     Write your awesome code here. See comments
     below for what should be returned.
