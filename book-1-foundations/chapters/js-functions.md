@@ -63,7 +63,7 @@ A local nightclub is having a Battle of the Bands night in a few months. They ex
 Your job is to write a function that accepts any band name as an argument. The function will increment a global variable by one each time it is invoked, and display that number, and the band name concatenated together to the DOM.
 
 ```js
-const bandNumber = 1
+let bandNumber = 1
 
 const takeNumber = function () {
   /*
