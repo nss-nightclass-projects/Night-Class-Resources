@@ -90,11 +90,17 @@ employee.role = "Sales Manager"
 
 I just changed the state of the JavaScript object that is representing Michael Tambornino.
 
-## Practice
+## Challenge 1
 
 You have volunteered your time to a local political candidate, Elizabeth Sanger, who wants to become a US representative in Congress for your district. Unfortunately, the team discovered that you're a software developer, so they have begged you to build an application that lets them track volunteers, and store information about Elizabeth and her campaign.
 
-Your job is to define the different objects and arrays, their structure, and the corresponding properties for each, to represent the following information about Elizabeth's campaign.
+Your job is to define the different objects and arrays, their structure, and the corresponding properties for each, to represent the following information about Elizabeth's campaign.  All of these properties should live under a variable called `elizabethSanger`.  This variable should be equal to an object.
+
+```js
+let elizabethSanger = {
+    // write all your properties here
+}
+```
 
 1. Her congressional district (_you can use yours here_)
 1. Her platform statements for the following issues.
@@ -120,11 +126,15 @@ Your job is to define the different objects and arrays, their structure, and the
 1. Mission statement
 1. URL for registering to vote
 
-## Challenge
+## Challenge 2
+Once you have determined the data structure for the `elizabethSanger` object, its time to put all that stuff in the dom.  Write a `printToDom` function that takes in the string to print and the id of the div to print to.  Re-use that function as needed to print to the dom.
 
-> Challanges are intended to be difficult and the expectation is for you to use your imagination and make some of your own decision about which code should be written.
+Create a function for each of the 8 properties above that builds up the string required to print this information to the dom.  Once the string is correct pass it and a divId to the printToDom function.  You will need to create 8 divs with unique ids in your index.html.  For example, create at `registerToVoteString` function this function should create an anchor tag that links to the URL for registering to vote property in the `elizabethSanger` object.
 
-After you have defined all the objects for representing the data about Elizabeth's campaign, write a corresponding function for each one whose purpose is to change the state of the object. Then use your functions to modify the existing data.
+The platform statements, volunteer information, and image gallery properties should be arrays.  This means to display this information you will need to loop over the array to create the string.  We have not done this in class yet so give it your best shot.  Spoiler alert - you need a for loop in each function for these three.
+
+## Challenge 3
+Write a corresponding function for each of the eight properties whose purpose is to change the state of the object. Then use your functions to modify the existing data.
 
 Things to think about.
 
@@ -133,18 +143,4 @@ Things to think about.
 
 This challenge is for you to practice writing functions, so the more you can write, the better. It helps make neural connections in your brain at this point since you're still building your software vocabulary.
 
-Example:
-
-```js
-function addToImageGallery (newImage) {
-    ...
-}
-
-function changeBiography (newBiography) {
-    ...
-}
-
-function changePlatform (topic, newPlatformStatement) {
-    ...
-}
-```
+Each of these functions should call the corresponding string creation function from part 2 so when the data is updated the DOM reflects the changes.
