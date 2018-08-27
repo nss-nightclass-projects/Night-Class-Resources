@@ -18,6 +18,11 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
   * [Git and Github](./chapters/git-and-github.md)
   * [Git Branching](./chapters/git-branching.md)
 * Chapter 5 - JavaScript
+  * [ES6 vs. ES5](./chapters/es6-vs-es5.md)
+  * [Functions](./chapters/js-functions.md)
+  * [Strings](./chapters/js-strings.md)
+  * [Objects](./chapters/js-objects.md)
+  * [Arrays](./chapters/js-arrays.md)
 
 ## Learning Objectives
 ![foundations](./images/foundations.png)
