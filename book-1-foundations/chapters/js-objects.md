@@ -90,7 +90,7 @@ employee.role = "Sales Manager"
 
 I just changed the state of the JavaScript object that is representing Michael Tambornino.
 
-## Challenge 1
+## Challenge
 
 You have volunteered your time to a local political candidate, Elizabeth Sanger, who wants to become a US representative in Congress for your district. Unfortunately, the team discovered that you're a software developer, so they have begged you to build an application that lets them track volunteers, and store information about Elizabeth and her campaign.
 
@@ -125,22 +125,3 @@ let elizabethSanger = {
     1. Picture of constituents
 1. Mission statement
 1. URL for registering to vote
-
-## Challenge 2
-Once you have determined the data structure for the `elizabethSanger` object, its time to put all that stuff in the dom.  Write a `printToDom` function that takes in the string to print and the id of the div to print to.  Re-use that function as needed to print to the dom.
-
-Create a function for each of the 9 properties above that builds up the string required to print this information to the dom.  Once the string is correct pass it and a divId to the printToDom function.  You will need to create 9 divs with unique ids in your index.html.  For example, create at `registerToVoteString` function this function should create an anchor tag that links to the URL for registering to vote property in the `elizabethSanger` object.
-
-The platform statements, volunteer information, and image gallery properties should be arrays.  This means to display this information you will need to loop over the array to create the string.  We have not done this in class yet so give it your best shot.  Spoiler alert - you need a for loop in each function for these three.
-
-## Challenge 3
-Write a corresponding function for each of the eight properties whose purpose is to change the state of the object. Then use your functions to modify the existing data.
-
-Things to think about.
-
-- Am I modifying an array? Then the function argument should be added to the target array with the `push()` method.
-- Am I modifying an object? Then I should pass both the key name to be modified, and its corresponding value.
-
-This challenge is for you to practice writing functions, so the more you can write, the better. It helps make neural connections in your brain at this point since you're still building your software vocabulary.
-
-Each of these functions should call the corresponding string creation function from part 2 so when the data is updated the DOM reflects the changes.
