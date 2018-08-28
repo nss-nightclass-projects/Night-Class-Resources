@@ -1,8 +1,8 @@
 # Chrome Dev Tools
 
-Dev tools super-charge your ability to customize your web applications and investigate how your code is working. You should **always** have your dev tools open.
+Dev tools ⚡super-charge⚡ your ability to customize your web applications and investigate how your code is working. You should **always** have your dev tools open. 👀
 
-You will use some dev tool panels  more than others. The red boxes will be most used in this class.
+Your dev tools contain a wealth of information. But no need to be overwhelmed! You will use some dev tool panels more than others. The red boxes will be most used in this class.
 ![Dev Tools Top Level](../images/dev-tools-panels.png)
 
 
@@ -37,10 +37,11 @@ You will use some dev tool panels  more than others. The red boxes will be most 
   - At each breakpoint you can see what variables are in your DOM
 
 ### Network Panel
-- Shows you the status of all assets you try and load into the site
+- Shows you the status of all assets (HTML, CSS, JS) you try and load into the site
   - Shows all assets that were requested
   - Gives you load times on each resource
   - Gives you status of each source
+  - Gives detailed information API requests and API responses (more on this later in the course).
 
 ### Application Panel
 - Where the cookies live
@@ -57,17 +58,26 @@ There are three main methods for debugging code your code in the browser.
 
 ### console.log
 
-The `console.log()` method in JavaScript allows you to display any information you want in the Console tab of the browser. You can display simple messages.
+The `console.log()` method in JavaScript allows you to display any information you want in the Console tab of the browser.
+
+As you start to write more advanced javascript code, you will find that sometimes `console.log` will lie to you. If you think that is happening, you should try using one of the other two options.
 
 ### debugger
 
-The `debugger;` keyword stops the execution of your javascript code - it allows you to review your JS code and see what the values of variable are at that moment. In the example below, I put in a `debugger` statement so that I can see what is contained inside the colors array, and then I can step one line of code at a time and see how it changes.
+The `debugger;` keyword stops the execution of your javascript code - it allows you to review your JS code and see what the values of variable are at that moment. Below, I put in a `debugger` statement so that I can see what is contained inside the colors array, and then I can step one line of code at a time and see how the `colors` variable changes.
 
 ![Debugger Gif](../images/debugger-statement.gif)
 
 ### Breakpoints
 
-In this example, I have a block of code that responds to user input, so it doesn't actually execute as soon as the page loads. I put a breakpoint on the line of code that I want to examine, and when the user performs the appropriate action, my JavaScript halts execution and I can examine the code.
+Breakpoints are debugger statements that are set in the Dev tools Sources Panel, not in your code.
+  - Pros:
+    - You are not changing your code. Note: it is *very* bad practice to commit code that has `debugger;` or `console.log()` statements
+    - You can manage your breakpoints more easily in your dev tools:
+      - You can disable all of your breakpoints
+      - You can see your breakpoints listed out
+  - Cons:
+    - Breakpoints can sometimes take longer to set up
 
 ## Additional Resources
 - Read the Chrome Dev Tools [Documentation](https://developers.google.com/web/tools/chrome-devtools/)
