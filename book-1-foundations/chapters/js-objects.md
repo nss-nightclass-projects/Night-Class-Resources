@@ -129,7 +129,7 @@ let elizabethSanger = {
 ## Challenge 2
 Once you have determined the data structure for the `elizabethSanger` object, its time to put all that stuff in the dom.  Write a `printToDom` function that takes in the string to print and the id of the div to print to.  Re-use that function as needed to print to the dom.
 
-Create a function for each of the 8 properties above that builds up the string required to print this information to the dom.  Once the string is correct pass it and a divId to the printToDom function.  You will need to create 8 divs with unique ids in your index.html.  For example, create at `registerToVoteString` function this function should create an anchor tag that links to the URL for registering to vote property in the `elizabethSanger` object.
+Create a function for each of the 9 properties above that builds up the string required to print this information to the dom.  Once the string is correct pass it and a divId to the printToDom function.  You will need to create 9 divs with unique ids in your index.html.  For example, create at `registerToVoteString` function this function should create an anchor tag that links to the URL for registering to vote property in the `elizabethSanger` object.
 
 The platform statements, volunteer information, and image gallery properties should be arrays.  This means to display this information you will need to loop over the array to create the string.  We have not done this in class yet so give it your best shot.  Spoiler alert - you need a for loop in each function for these three.
 
