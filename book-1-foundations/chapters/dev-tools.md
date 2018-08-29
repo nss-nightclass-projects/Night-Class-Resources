@@ -29,9 +29,10 @@ Your dev tools contain a wealth of information. But no need to be overwhelmed! Y
   - JS in the browser - type in any JS and watch it go
   - Any console.logs you put in print here
   - When you have stopped your code execution (see [Debugging](#debugging)), you can print out the values of your javascript variables here.
+  - PRO TIP: You can toggle the JS console pane while in other panels by clicking `esc`.
 
 ### Sources Panel
-- Where the pros debug their code.
+- Where the pros debug their code. (again, see [Debugging](#debugging))
   - Allows you to open any JS/CSS file and see the code in it
   - You can place breakpoints so you don’t need to put in debuggers/console.logs
   - At each breakpoint you can see what variables are in your DOM
@@ -49,6 +50,11 @@ Your dev tools contain a wealth of information. But no need to be overwhelmed! Y
   - View and edit cookies
   - View and edit Application Cache
 
+## Additional Resources
+- Read the Chrome Dev Tools [Documentation](https://developers.google.com/web/tools/chrome-devtools/)
+
+----
+
 ## <a name="debugging"></a>Debugging Your Code in the Browser
 
 There are three main methods for debugging code your code in the browser.
@@ -60,7 +66,7 @@ There are three main methods for debugging code your code in the browser.
 
 The `console.log()` method in JavaScript allows you to display any information you want in the Console tab of the browser.
 
-As you start to write more advanced javascript code, you will find that sometimes `console.log` will lie to you. If you think that is happening, you should try using one of the other two options.
+As you start to write more advanced javascript code, you will find that sometimes the variables that you `console.log` will lie to you. If you think that is happening, you should try using one of the other two options.
 
 ### debugger
 
@@ -78,6 +84,3 @@ Breakpoints are debugger statements that are set in the Dev tools Sources Panel,
       - You can see your breakpoints listed out
   - Cons:
     - Breakpoints can sometimes take longer to set up
-
-## Additional Resources
-- Read the Chrome Dev Tools [Documentation](https://developers.google.com/web/tools/chrome-devtools/)
