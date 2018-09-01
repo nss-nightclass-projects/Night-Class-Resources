@@ -24,7 +24,7 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
   * [Objects](./chapters/js-objects.md)
   * [Arrays](./chapters/js-arrays.md)
 * Chapter 6 - Debugging
-  * [Chrome Dev Tools](./chapters/dev-tools.md)
+  * [Chrome Dev Tools & Debugging](./chapters/dev-tools.md)
 
 ## Learning Objectives
 ![foundations](./images/foundations.png)
