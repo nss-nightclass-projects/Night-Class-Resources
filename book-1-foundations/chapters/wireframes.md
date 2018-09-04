@@ -12,6 +12,14 @@ Wireframes should be something you can create/edit easily and should be assessib
 - Professional Programs, i.e. Photoshop
   - Only use these if you already have experience using the application
 
+### Basics on taking screenshots
+- Mac (gives a cursor to draw a screenshot square)
+  - `CMD + SHIFT + 4` saves a screenshot to your desktop
+  - `CMD + CTRL + SHIFT + 4` saves a screenshot to your clipboard
+- Windows
+  - `Alt + PrtScn` saves a screenshot of your active window to your clipboard
+  - Use the Snipping Tool application on your computer
+
 ### Moqups: Free Signup Steps
 
 1. From [moqups](https://moqups.com/), click the 'try it now for free' button
