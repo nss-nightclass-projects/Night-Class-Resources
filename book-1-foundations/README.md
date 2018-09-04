@@ -28,6 +28,7 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
 * Chapter 6 - Other
   * [Chrome Dev Tools & Debugging](./chapters/dev-tools.md)
   * [Wireframes](./chapters/wireframes.md)
+  * [GitHub Projects](./chapters/github-projects.md)
   * [Markdown](./chapters/markdown.md)
 
 ## Learning Objectives
