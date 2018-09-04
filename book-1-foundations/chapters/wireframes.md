@@ -20,3 +20,9 @@ Wireframes should be something you can create/edit easily and should be assessib
 1. Scroll down and click the 'Free Plan' link:
 ![Signup Step 2](../images/signup2.png)
 1. Create an account
+
+### Attaching a wireframe to a ticket
+1. Take a screenshot of your wirefram
+- Mac:  `command + shift + 4` this takes a screenshot and places it on the desktop
+- PC: `windows + shift + s` takes a screenshot
+2.  Import the image into the ticket
