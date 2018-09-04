@@ -7,7 +7,7 @@ Your dev tools contain a wealth of information. But no need to be overwhelmed! Y
 
 
 ## Three Ways to Open
-1. Shortcut Keys (opening to network panel or console panel):
+1. Shortcut Keys (opens to network panel OR console panel):
     - Mac: `CMD + OPT + I` OR `CMD + OPT + J`
     - Windows: `CTRL + SHIFT + I` OR `CTRL + OPT + J`
 1. Right Click
