@@ -17,14 +17,18 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
   * [Github Setup](./chapters/github-setup.md)
   * [Git and Github](./chapters/git-and-github.md)
   * [Git Branching](./chapters/git-branching.md)
+  * [Github Projects](./chapters/github-projects.md)
+  * [Advanced Git (Git for Teams)](./chapters/advanced-git.md)
 * Chapter 5 - JavaScript
   * [ES6 vs. ES5](./chapters/es6-vs-es5.md)
   * [Functions](./chapters/js-functions.md)
   * [Strings](./chapters/js-strings.md)
   * [Objects](./chapters/js-objects.md)
   * [Arrays](./chapters/js-arrays.md)
-* Chapter 6 - Debugging
+* Chapter 6 - Other
   * [Chrome Dev Tools & Debugging](./chapters/dev-tools.md)
+  * [Wireframes](./chapters/wireframes.md)
+  * [Markdown](./chapters/markdown.md)
 
 ## Learning Objectives
 ![foundations](./images/foundations.png)
