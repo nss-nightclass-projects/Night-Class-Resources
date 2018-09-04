@@ -1,6 +1,6 @@
 # Wireframes
 
-A visual guide that represents the skeletal framework of a website. Wireframes focus on the arrangement different elements (i.e. images, text, navigation) -- in thinking about the application's arragement, it is common that functional and techical questions may arise. Therefore, you should always create wireframes in the planning phase of your project or (stretch) feature.
+Wireframes are visual guide that represents the skeletal framework of a website. Wireframes focus on the arrangement different elements (i.e. images, text, navigation) -- in thinking about the application's arragement, it is common that functional and technical questions may arise. That's a good thing! So, you should always create wireframes in the planning phase of your project or (stretch) feature.
 
 Wireframes should be something you can create/edit easily and should be assessible to you and your teammates (you should include them in your project cards).
 
