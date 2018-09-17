@@ -30,6 +30,8 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
   * [Wireframes](./chapters/wireframes.md)
   * [GitHub Projects](./chapters/github-projects.md)
   * [Markdown](./chapters/markdown.md)
+* Chapter 7 - Interaction with the DOM
+  * [JS Events](./chapters/js-events.md)
 
 ## Learning Objectives
 ![foundations](./images/foundations.png)
