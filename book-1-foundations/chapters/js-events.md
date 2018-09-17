@@ -59,7 +59,7 @@ function handleSectionClick (event) {
 }
 
 for (var i = 0; i < articleEl.length; i++) {
-    articleEl.item[i].addEventListener("click", handleSectionClick)
+    articleEl[i].addEventListener("click", handleSectionClick)
 }
 
 /*
