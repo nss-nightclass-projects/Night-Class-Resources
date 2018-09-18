@@ -1,13 +1,12 @@
 # Book 2 - Patterns and Tools
 
 ## Chapters
-* Chapter 1 - Event Listeners
-* Chapter 2 - Bootstrap
-* Chapter 3 - Task Runners
-* Chapter 4 - ES6 Modules
-* Chapter 5 - JSON and XHR
-* Chapter 6 - Jquery
-* Chapter 7 - Promises
+* Chapter 1 - Bootstrap
+* Chapter 2 - Task Runners
+* Chapter 3 - ES6 Modules
+* Chapter 4 - JSON and XHR
+* Chapter 5 - Jquery
+* Chapter 6 - Promises
 
 
 ## Learning Objectives
