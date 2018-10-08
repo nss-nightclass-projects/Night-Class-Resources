@@ -21,4 +21,7 @@ Once we learn jQuery, we will basically be deprecating these from our life:
 - `classList.contains`
 - `new XMLHttpRequest()`
 
+## jQuery Selectors
 
+jQuery basic syntax selects a dom element and then performs some action:
+`$("selector").action()`js
