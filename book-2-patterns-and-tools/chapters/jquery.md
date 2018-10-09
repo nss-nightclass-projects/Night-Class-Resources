@@ -24,4 +24,34 @@ Once we learn jQuery, we will basically be deprecating these from our life:
 ## jQuery Selectors
 
 jQuery basic syntax selects a dom element and then performs some action:
-`$("selector").action()`js
+`$("selector").action()`
+
+jQuery selects all <p>’s and then hides them all
+`$("p").hide()`
+
+jQuery uses CSS syntax to “find” and select HTML elements based on their name, id, classes, types, attributes, values of attributes, etc.
+```js
+$("#main") // gets the element with ID of 'main'
+$(".fancy") // gets a list of elements with class of 'fancy'
+$("p") // gets a list of elements with 'p' tag
+$("div.fancy") // gets a list of all divs with class 'fancy'
+ ```
+
+**Old Way:**
+`const childrenOfMain = document.getElementById("main").getElementsByClassName("child")`
+
+**New Way:**
+`const childrenOfMain = $("#main .child”)` 🎉
+
+#### In Class Challenge: What would the jQuery selector be to target all of the bananas with the class ‘funky’
+```
+<div>
+	<h1 class=‘funky’> Monkey </h1>
+	<div>
+		<banana class=‘funky’> Bernerner </banana>
+		<banana class=‘funky large’> B A N A N A </banana>
+		<banana> Banana </banana>
+	</div>
+	<banana class=‘funky’> 100 </banana>
+</div>
+```
