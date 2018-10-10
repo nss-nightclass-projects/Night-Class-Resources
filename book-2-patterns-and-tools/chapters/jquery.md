@@ -1,5 +1,5 @@
 # jQuery
-> [Slides to powerpoint](../images/jQuery.pdf)
+> [Link to Slide Version](../images/jQuery.pdf)
 
 ## What is jQuery?
 > A JavaScript library (some people wrote some JavaScript that makes it easier for other developers to write JS)
