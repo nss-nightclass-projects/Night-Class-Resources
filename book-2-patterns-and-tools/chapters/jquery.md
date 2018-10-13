@@ -58,3 +58,5 @@ $("div.fancy") // gets a list of all divs with class 'fancy'
 	<banana class=‘funky’> 100 </banana>
 </div>
 ```
+
+### Getting Attribute
