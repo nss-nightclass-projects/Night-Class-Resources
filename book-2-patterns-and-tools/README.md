@@ -6,7 +6,7 @@
 * Chapter 3 - ES6 Modules
 * Chapter 4 - JSON and XHR
 * Chapter 5 - [Jquery](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/jquery.md)
-* Chapter 6 - [Promises]https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/promises.md
+* Chapter 6 - [Promises](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/promises.md)
 
 
 ## Learning Objectives
