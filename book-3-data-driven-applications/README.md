@@ -1,10 +1,11 @@
 # Book 3 - Data-Driven Applications
 
 ## Chapters
-* Chapter 1 - Axios
-* Chapter 2 - firebase
-* Chapter 3 - SASS
-* Chapter 4 - React
+* Chapter 1 - [APIs](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/APIs.md)
+* Chapter 2 - Axios
+* Chapter 3 - firebase
+* Chapter 4 - SASS
+* Chapter 5 - React
 
 
 ## Learning Objectives
