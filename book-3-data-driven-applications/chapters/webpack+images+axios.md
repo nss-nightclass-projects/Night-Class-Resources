@@ -183,3 +183,21 @@ const examplePromise = () => new Promise((resolve, reject) => {
     });
 });
 ```
+
+___
+
+## Including Images 📷🖼️
+> Because Webpack needs to include images specifically before including them (even in your HTML!), you will need to specifically import them into your file and set the source for each one
+```html 
+<img id="dog"></img>
+<img id="cat"></img>
+```
+
+```js
+import $ from 'jquery';
+import dog from './images/dog.jpg';
+import cat from './images/cat.jpg';
+
+$('#dog').attr('src', dog);
+$('#car').attr('src', cat);
+```
