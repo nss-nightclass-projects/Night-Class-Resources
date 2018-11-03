@@ -176,10 +176,10 @@ import axios from 'axios';
 
 const examplePromise = () => new Promise((resolve, reject) => {
   axios.get('http://localhost:3001/example')
-    .done((data) => {
+    .then((data) => {
       resolve(data);
     })
-    .fail((error) => {
+    .catch((error) => {
       reject(error);
     });
 });
