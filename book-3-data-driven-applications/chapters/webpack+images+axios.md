@@ -190,8 +190,8 @@ ___
 ## Including Images 📷🖼️
 > Because Webpack needs to include images specifically before including them (even in your HTML!), you will need to specifically import them into your file and set the source for each one
 ```html 
-<img id="dog"></img>
-<img id="cat"></img>
+<img id="dog">
+<img id="cat">
 ```
 
 ```js
