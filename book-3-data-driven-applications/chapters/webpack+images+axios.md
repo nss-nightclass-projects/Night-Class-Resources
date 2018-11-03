@@ -160,6 +160,7 @@ module.exports = {
 ```js
 import $ from 'jquery';
 import 'bootstrap';
+import './index.scss';
 ```
 
 ## Setup cont'd
@@ -199,5 +200,5 @@ import dog from './images/dog.jpg';
 import cat from './images/cat.jpg';
 
 $('#dog').attr('src', dog);
-$('#car').attr('src', cat);
+$('#cat').attr('src', cat);
 ```
