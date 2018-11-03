@@ -74,6 +74,7 @@ dist/
     "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^4.1.3",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.4"
@@ -82,7 +83,7 @@ dist/
 ```
 
 #### webpack.config.js
-```
+```js
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -148,4 +149,37 @@ module.exports = {
     open: isDev ? true : false
   }
 };
+```
+
+#### src/index.scss
+```
+@import "~bootstrap/scss/bootstrap";
+```
+
+#### src/index.js
+```js
+import $ from 'jquery';
+import 'bootstrap';
+```
+
+## Setup cont'd
+1. **Local Command Prompt** `npm install`
+1. **Local Command Prompt (VS Code)** `npm start`
+
+___
+
+## Using Axios
+> For every file you will need to make an XHR request in, you will need to require Axios
+```js
+import axios from 'axios';
+
+const examplePromise = () => new Promise((resolve, reject) => {
+  axios.get('http://localhost:3001/example')
+    .done((data) => {
+      resolve(data);
+    })
+    .fail((error) => {
+      reject(error);
+    });
+});
 ```
