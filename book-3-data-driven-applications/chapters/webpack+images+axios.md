@@ -34,7 +34,8 @@ node_modules
     "allowTemplateLiterals": true
   },
   "rules": {
-    "no-console": 1
+    "no-console": 1,
+    "no-debugger": 1
   }
 }
 ```
@@ -98,6 +99,7 @@ const extractScss = new ExtractTextPlugin({
 });
 
 module.exports = {
+  devtool: 'source-map',
   entry: {
     bundle: './src/index.js'
   },
