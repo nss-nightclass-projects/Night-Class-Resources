@@ -18,11 +18,11 @@
 ```
 2. [Once per project] Create a Firebase project (if you don't already have one for the database, Firebase will cap it at 5, BUT it will also let you create more if you request them and mention you are in school).
 3. [Once per project] Run `firebase init`
-  3a. Select 'hosting' using your arrow keys, hit the space bar and hit enter
-  3b. Project Setup > select the project using your arrow keys, hit the space bar and hit enter
-  3c. What do you want to use as your public directory? (public) > type `dist` and hit enter
-  3d. Configure as a single-page app (rewrite all urls to /index.html)? (y/N) > type `y` and hit enter
-  3e. IF it asks you if you want to overwrite > type `n` and hit enter
+    3a. Select 'hosting' using your arrow keys, hit the space bar and hit enter
+    3b. Project Setup > select the project using your arrow keys, hit the space bar and hit enter
+    3c. What do you want to use as your public directory? (public) > type `dist` and hit enter
+    3d. Configure as a single-page app (rewrite all urls to /index.html)? (y/N) > type `y` and hit enter
+    3e. IF it asks you if you want to overwrite > type `n` and hit enter
 4. [Every time you have a major update you want to release] `npm run deploy`
 
 ## If Your Project Is Just Vanilla JS
@@ -39,8 +39,8 @@
 ```
 2. [Once per project] Create a Firebase project (if you don't already have one for the database, Firebase will cap it at 5, BUT it will also let you create more if you request them and mention you are in school).
 3. [Once per project] Run `firebase init`
-  2a. Select 'hosting' using your arrow keys, hit the space bar and hit enter
-  2b. Project Setup > select the project using your arrow keys, hit the space bar and hit enter
-  2c. What do you want to use as your public directory? (public) > type `public` and hit enter
-  2d. Configure as a single-page app (rewrite all urls to /index.html)? (y/N) > type `n` and hit enter
+    3a. Select 'hosting' using your arrow keys, hit the space bar and hit enter
+    3b. Project Setup > select the project using your arrow keys, hit the space bar and hit enter
+    3c. What do you want to use as your public directory? (public) > type `public` and hit enter
+    3d. Configure as a single-page app (rewrite all urls to /index.html)? (y/N) > type `n` and hit enter
 4. [Every time you have a major update you want to release] `firebase deploy`
