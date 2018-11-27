@@ -1,7 +1,10 @@
 # Deploying Your Project With Firebase
 
 > Globally install the Firebase tools on your machine
+
 `npm install firebase-tools -g`
+
+`firebase login`
 
 :warning: Windows users ... might have to use powershell :skull:
 
