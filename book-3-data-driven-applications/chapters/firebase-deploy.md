@@ -5,6 +5,7 @@
 `npm install firebase-tools -g`
 
 `firebase login`
+> run `firebase login --interactive` if you are getting the error `Error: Cannot run login:ci in non-interactive mode.`
 
 :warning: Windows users ... might have to use powershell :skull:
 
