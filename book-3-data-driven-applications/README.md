@@ -8,6 +8,7 @@
     * [Deploying with Firebase](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/firebase-deploy.md)
 * Chapter 5 - [SASS](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/sass.md)
 * Chapter 6 - React
+    * [Setting up a React Project](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/react-setup.md)
 
 
 ## Learning Objectives
