@@ -22,6 +22,18 @@ npx create-react-app intro-react
 
 If the above command didn't work for you, you need to update npm.  Find an instructor to help you with that.
 
+## Github
+Now that we have our beginning files inplace we need to create a github repo and push things up in a very particular order.
+* Create a github repo - DO NOT initialize with a readme.
+* create a README.md file locally
+* `git add README.md`
+* `git commit -m  "added readme"`
+* `git remote add origin <ADD SSH STUFF HERE>`
+* `git push -u origin master`
+* `git checkout -b setup`
+
+You should now have the README.md file pushed up to github and be on a setup branch with all the code from create-react-app.  Before we push the create-react-app code up, we will modify the file structure to fit our needs.
+
 ## Organizing files (our changes)
 ### Create App Folder
 
@@ -111,3 +123,6 @@ Bootstrap is now ready to go!
 * install firebase with npm (nothing new here)
 
 `npm install firebase --save`
+
+## Github
+At this  point you can add, commit, and push everything to your setup branch.  You can then PR to master and merge.  It't time to write some react!
