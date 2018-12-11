@@ -11,7 +11,7 @@ Out of the box we will be able to enjoy the following great features:
 * Unit test runner (Jest is already installed and configured)
 * Live development server (make some changes and the app automatically reloads)
 * Build scripts to bundle all the things (JS, CSS, images, and sourcemaps)
-* Ofline service works (you can *technically* do development offline)
+* Offline service works (you can *technically* do development offline)
 * Hassle free updates (if a new version of create-react-app comes out you just update the version in the package.json file)
 
 ## Building a project
