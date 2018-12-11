@@ -11,7 +11,7 @@ Out of the box we will be able to enjoy the following great features:
 * Unit test runner (Jest is already installed and configured)
 * Live development server (make some changes and the app automatically reloads)
 * Build scripts to bundle all the things (JS, CSS, images, and sourcemaps)
-* Ofline service works (you can *technically* do development offline)
+* Offline service works (you can *technically* do development offline)
 * Hassle free updates (if a new version of create-react-app comes out you just update the version in the package.json file)
 
 ## Building a project
@@ -21,6 +21,15 @@ npx create-react-app intro-react
 ```
 
 If the above command didn't work for you, you need to update npm.  Find an instructor to help you with that.
+
+## Github
+Now that we have our beginning files inplace we need to create a github repo and push things up in a very particular order.  Create-react-app has already done a git init, built a README.md, and done and add and commit for us.  We just need to link our local repo to a github repo and push.
+* Create a github repo - DO NOT initialize with a readme.
+* `git remote add origin <ADD SSH STUFF HERE>`
+* `git push -u origin master`
+* `git checkout -b setup`
+
+You should now have all the create-react-app stuff pushed up to github and be on a setup branch.  Now we will modify the file structure to fit our needs.
 
 ## Organizing files (our changes)
 ### Create App Folder
@@ -82,7 +91,7 @@ To use bootstrap with react we will use something called reactstrap.  This is an
 * Install both components
 
 `npm install bootstrap reactstrap --save`
-* Add a button to index.js and import the bootrap css file
+* Add a button to app.js and import the bootrap css file
 
 At top of file: `import 'bootstrap/dist/css/bootstrap.min.css';`
 
@@ -111,3 +120,6 @@ Bootstrap is now ready to go!
 * install firebase with npm (nothing new here)
 
 `npm install firebase --save`
+
+## Github
+At this  point you can add, commit, and push everything to your setup branch.  You can then PR to master and merge.  It't time to write some react!
