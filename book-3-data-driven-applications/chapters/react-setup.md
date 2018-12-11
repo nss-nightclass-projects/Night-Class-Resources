@@ -91,7 +91,7 @@ To use bootstrap with react we will use something called reactstrap.  This is an
 * Install both components
 
 `npm install bootstrap reactstrap --save`
-* Add a button to index.js and import the bootrap css file
+* Add a button to app.js and import the bootrap css file
 
 At top of file: `import 'bootstrap/dist/css/bootstrap.min.css';`
 
