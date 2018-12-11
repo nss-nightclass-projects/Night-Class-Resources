@@ -9,7 +9,9 @@
 * Chapter 5 - [SASS](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/sass.md)
 * Chapter 6 - React
     * [Setting up a React Project](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/react-setup.md)
-
+    * [React Intro](./chapters/react-intro.md)
+    * [React Lifecycle Methods](./chapters/react-lifecycle-methods.md)
+    * [React Auth (SPA)](./chapters/react-auth-spa.md)
 
 ## Learning Objectives
 ![data-driven-apps](./images/data_driven_applications.png)

@@ -1,0 +1,1 @@
+# How to do Authentication for a React SPA (NO ROUTES)
