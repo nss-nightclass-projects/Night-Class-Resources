@@ -4,4 +4,4 @@ Should be able to take pieces of [this](https://reactjs.org/docs/react-component
 
 ## componentDidMount
 - Triggers right after your component has been put into the DOM.
-- [React Docs](https://reactjs.org/docs/react-component.html#componentdidmount)
+- [componentDidMount React Docs](https://reactjs.org/docs/react-component.html#componentdidmount)
