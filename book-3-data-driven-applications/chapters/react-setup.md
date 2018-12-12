@@ -76,7 +76,8 @@ Your scss styling should now work.
   },
   "rules": {
     "no-console": [1, { "allow": ["error"] }],
-    "no-debugger": 1
+    "no-debugger": 1,
+    "class-methods-use-this": 0
   }
 }
 ```
