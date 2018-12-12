@@ -34,7 +34,7 @@ tldr; ES6+
 Things to know: 
 - You must always have one main container (one parent tag) for all of the tags created.
 - We will write JSX to be returned from our component's render method. Multi-line JSX can be written if you include parenthesis around the JSX:
-```
+```javascript
 render() {
   // zoe's preference on what can go here: helper functions that manipulate what is going to go to the DOM
   return (
@@ -49,7 +49,7 @@ Parenthesis are not needed if you are returning only one line of JSX.
 ## Adding a Click Event
 - add an `onClick={this.clickEventFunction}` attribute to which you want to add the click event.
 - clickEventFunction (or whatever you want to name it) would be defined on the class as a function
-```
+```javascript
 class Chart extends React.Component {
   clickEventFunction = (e) => {
     // code goes here for what should trigger after the click event
