@@ -36,6 +36,7 @@ Things to know:
 - We will write JSX to be returned from our component's render method. Multi-line JSX can be written if you include parenthesis around the JSX:
 ```
 render() {
+  // zoe's preference on what can go here: helper functions that manipulate what is going to go to the DOM
   return (
     <div className="GreetingComponent">
       <h1>Hello World!</h1>
@@ -44,3 +45,17 @@ render() {
 }
 ```
 Parenthesis are not needed if you are returning only one line of JSX.
+
+## Adding a Click Event
+- add an `onClick={this.clickEventFunction}` attribute to which you want to add the click event.
+- clickEventFunction (or whatever you want to name it) would be defined on the class as a function
+```
+class Chart extends React.Component {
+  clickEventFunction = (e) => {
+    // code goes here for what should trigger after the click event
+  }
+  
+  render() { ......etc
+}
+}
+```
