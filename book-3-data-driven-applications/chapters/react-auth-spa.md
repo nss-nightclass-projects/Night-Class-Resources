@@ -9,7 +9,7 @@
   - You should make an `apiKeys.js.example` file that will not be ignored.
   
 ## Firebase Intialization
-- In our App component, within the componentDidMount lifecycle method, we are going to have our firebase intialization trigger. 
+- In our App component, within the componentDidMount lifecycle method, we are going to have our firebase intialization trigger (via helper function).
 ```javascript
 const firebaseApp = () => {
   // check if firebase app exists.  If not create one.
