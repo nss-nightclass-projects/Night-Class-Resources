@@ -123,3 +123,6 @@ Bootstrap is now ready to go!
 
 ## Github
 At this  point you can add, commit, and push everything to your setup branch.  You can then PR to master and merge.  It't time to write some react!
+
+## Chrome Extension
+- Install the extension [React Develoepr Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en). This will show up in your **dev tools** in the top bar (but only when you are viewing a website that is using react)
