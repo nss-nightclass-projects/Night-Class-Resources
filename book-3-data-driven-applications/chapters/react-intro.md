@@ -2,10 +2,6 @@
 Now that we have created our repo using create-react-app and modified the file structure to fit our needs, its time to take a deeper look at what we have and how things work.
 
 ## What is class?/What is constructor?
-# Intro to React
-Now that we have created our repo using create-react-app and modified the file structure to fit our needs, its time to take a deeper look at what we have and how things work.
-
-## What is class?/What is constructor?
 - A constructor: special javascript object that has functions and properties defined on it.
 - A class: this is essentially fancy function - ok article [here](https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e)
 
@@ -31,6 +27,8 @@ tldr; ES6+
 [Great Article](https://hackernoon.com/the-constructor-is-dead-long-live-the-constructor-c10871bea599)
 
 ## How to translate a constructor based class to what we are doing?
+
+> A Note on Imports: You will import React into every component file that you write
 
 ## JSX
 Things to know: 
