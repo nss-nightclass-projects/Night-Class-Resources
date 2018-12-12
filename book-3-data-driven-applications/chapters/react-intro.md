@@ -46,7 +46,7 @@ render() {
 ```
 Parenthesis are not needed if you are returning only one line of JSX.
 
-## Adding a Click Event
+## Adding a basic click event within a component
 - add an `onClick={this.clickEventFunction}` attribute to which you want to add the click event.
 - clickEventFunction (or whatever you want to name it) would be defined on the class as a function
 ```javascript
