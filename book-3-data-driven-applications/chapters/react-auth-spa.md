@@ -18,3 +18,15 @@ const firebaseApp = () => {
   }
 };
 ```
+
+## State
+- In your App component, you will add to the component's state some authentication information. It may look something like (defined directly on the App component): 
+```
+  state = {
+    authed: false,
+  };
+```
+- You will use the value in state for `authed` to conditionally determine which components get rendered in your App. You can access the value in state by the statement `this.state.authed`.
+
+### How to Update State
+- You will modify state by using the React.Component method, ex. `this.setState({ authed: true })`
