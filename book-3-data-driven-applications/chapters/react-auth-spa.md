@@ -1,4 +1,4 @@
-# How to do Authentication for a React SPA (NO ROUTES)
+# Basic Authentication for a React SPA (NO ROUTES)
 
 ## Topics Covered / Functionality Implemented
 - Google Auth Login button. Nav bar with Logout link. 
