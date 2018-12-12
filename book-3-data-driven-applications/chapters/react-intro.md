@@ -55,7 +55,6 @@ class Chart extends React.Component {
     // code goes here for what should trigger after the click event
   }
   
-  render() { ......etc
-}
+  render() {  {/* Put JSX here */}  }
 }
 ```
