@@ -24,7 +24,7 @@
 3. [Once per project] Run `firebase init`
     * Select 'hosting' using your arrow keys, hit the space bar and hit enter
     * Project Setup > select the project using your arrow keys, hit the space bar and hit enter
-    * What do you want to use as your public directory? (public) > type `dist` and hit enter
+    * What do you want to use as your public directory? (public) > type `build` and hit enter
     * Configure as a single-page app (rewrite all urls to /index.html)? (y/N) > type `y` and hit enter
     * IF it asks you if you want to overwrite > type `n` and hit enter
 4. [Every time you have a major update you want to release] `npm run deploy`
