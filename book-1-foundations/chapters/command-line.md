@@ -101,8 +101,12 @@ Windows: ```> cmd //c tree```
 
 Once it is installed use it by going to the directory you are interested in exploring and then typing `tree` and hitting enter.
 
-## Class File Structure
-For the next six months we will be working through three different milestones.  In order to make that go smoothly lets create a file structure so we are all coding in the same place.  Use the command line commands you just learned to create the following file structure:
+## Mini Challenge: Create our Class File Structure
+For the next six months we will be working through four different milestones.  In order to make that go smoothly lets create a file structure so we are all coding in the same place.  To test what you have learned above lets see if you can create our file structure.
+
+* Step 1: Run this command `mkdir ~/workspace`
+* Step 2: Run this command `cd ~/workspace`
+* Step 3: The above two command should have made a workspace directory at the root of your machine and taked you into that folder. Now create all the subfolders we will need:
 ![workspace file structure](../images/workspace_file_structure.png)
 
 ## Mini Challenge
