@@ -24,7 +24,8 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
   * [Functions](./chapters/js-functions.md)
   * [Strings](./chapters/js-strings.md)
   * [Objects](./chapters/js-objects.md)
-  * [Arrays](./chapters/js-arrays.md)
+  * [Arrays and Looping](./chapters/js-array-looping.md)
+  * [Arrays Methods](./chapters/js-array-methods.md)
 * Chapter 6 - Other
   * [Chrome Dev Tools & Debugging](./chapters/dev-tools.md)
   * [Wireframes](./chapters/wireframes.md)
