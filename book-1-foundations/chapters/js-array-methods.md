@@ -1,11 +1,5 @@
-# Javascript Arrays
-Arrays are like buckets of stuff where the order matters.  For example if we take a bucket and fill it with cats we should always know the order of the cats in the bucket;  something like:
-```js
-const cats = ['fluffy', 'spike', 'Mr. Whiskers', 'killer'];
-```
-The majority of the tasks you will accomplish in this course and in your dev career will involve looping over an array of objects and displaying that data to the DOM.
+# Javascript Array Methods
 
-### Useful Array methods
 #### Split
 Split takes a string and breaks it into an array.  Each letter becomes its own indexi in the new array
 ```js
