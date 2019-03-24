@@ -27,12 +27,14 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
   * [Arrays and Looping](./chapters/js-array-looping.md)
   * [Arrays Methods](./chapters/js-array-methods.md)
 * Chapter 6 - Other
+  * [VS Code](./chapters/vs_code.md)
   * [Chrome Dev Tools & Debugging](./chapters/dev-tools.md)
   * [Wireframes](./chapters/wireframes.md)
-  * [GitHub Projects](./chapters/github-projects.md)
   * [Markdown](./chapters/markdown.md)
 * Chapter 7 - Interaction with the DOM
+  * [The DOM](./chapters/dom.md)
   * [JS Events](./chapters/js-events.md)
+  * [Dynamic Event Listeners](./chapters/dynamic-events.md)
 
 ## Learning Objectives
 ![foundations](./images/foundations.png)
