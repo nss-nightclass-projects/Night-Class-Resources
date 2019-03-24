@@ -29,3 +29,29 @@ Look at a bad readme [HERE](https://github.com/zoeames/shapes)
 
 Look at a good readme [HERE](https://github.com/morecallan/frontend-capstone)
 
+## Adding Screenshots to README.md
+1. Make a readme branch: `git checkout -b readme`
+2.  Take a screenshot of your project (we called the screenshot main_view.png for this example)
+  * [Mac Instructions (Mojave)](https://support.apple.com/en-us/HT201361)
+  * [Windows Instructions (Windows 10)](https://www.howtogeek.com/226280/how-to-take-screenshots-in-windows-10/)
+3.  In your project create a `screenshots` folder at the root
+4.  Move the screenshot into the `screenshots` folder (`screenshots/main_view.png`)
+5. Add, commit, push, create a PR and merge
+6. Switch to the master branch and `git pull origin master`
+7. Create another branch: `git checkout -b readme2`
+8. Determine the URL for the screenshot - ON MASTER BRANCH
+  *  On github click the screenshots folder (make sure you are on master branch)
+  ![select screenshot folder](../images/select_screenshots.png)
+  * Click on the file name that you want to include
+  * You should now see a preview of your screenshot.  Click the download button.
+    ![download button](../images/download_button.png)
+  * Your image should now be opened in a new tab.  Copy the link in your navigation bar
+
+9. Add the screenshot to your README.md (replace what is in parenthesis with the link you got in the step above)
+```
+![Main View](https://raw.githubusercontent.com/nss-evening-cohort-9/markdown/master/screenshots/main_view.png)
+```
+10. Add, commit, push, make a PR, and merge it
+
+Your readme on master branch should now be complete
+
