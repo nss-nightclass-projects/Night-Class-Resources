@@ -93,7 +93,7 @@ Here are some of the methods that you will most commonly use to attach events wi
 Mouse events: .click(), .hover(), .mouseleave()
 Keyboard events: .keyup(), .keypress()
 Form events: .change(), .select(), .submit()
-Event handler attachment: .on() 
+Event handler attachment: .on()
 
 Let’s talk more about this .on() ...
 
@@ -111,7 +111,7 @@ $(".dynamic-button").on("click", (e) => {
 
 ### Attaching Event Listeners to many DOM elements
 
-Old Way: 
+Old Way:
 ```
 const children = document.getElementsByClassName("child");
 

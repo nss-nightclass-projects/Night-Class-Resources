@@ -6,13 +6,13 @@ Wireframes should be something you can create/edit easily and should be accessib
 
 > Wireframes in Group Projects: wireframes are useful in agreeing and implementing a uniform user interface (UI) throughout an application.
 
-### Wireframe Tools
+## Wireframe Tools
 - Free, Web-based Option: [Moqups](https://moqups.com/)
 - Photos of hand-drawn wireframes on whiteboards or paper
 - Professional Programs, i.e. Photoshop
   - Only use these if you already have experience using the application
 
-### Basics on taking screenshots
+## Basics on taking screenshots
 - Mac
   - `CMD + SHIFT + 4` lets you select an area and saves a screenshot to your desktop
   - `CMD + CTRL + SHIFT + 4` lets you select an area and saves a screenshot to your clipboard
@@ -22,7 +22,7 @@ Wireframes should be something you can create/edit easily and should be accessib
 
  > Remember to add your screenshots to your tickets!
 
-### Moqups: Free Signup Steps
+## Moqups: Free Signup Steps
 
 1. From [moqups](https://moqups.com/), click the 'try it now for free' button
 1. From the editor window, click 'signup and pricing':

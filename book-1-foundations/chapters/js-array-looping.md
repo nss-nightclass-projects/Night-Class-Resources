@@ -5,7 +5,7 @@ const cats = ['fluffy', 'spike', 'Mr. Whiskers', 'killer'];
 ```
 The majority of the tasks you will accomplish in this course and in your dev career will involve looping over an array of objects and displaying that data to the DOM.
 
-### For Loops
+## For Loops
 For loops allow you to do the same thing over and over again even when you don't know how many times you need to do something.  When you need to use a for loop you need to know the following:
 1.  What value to start at
 1. What value to stop at
@@ -14,7 +14,7 @@ Once you know those three things you can translate what you know in the loop by 
 ![for loop](../images/for.png)
 
 
-### Looping to the Dom
+## Looping to the Dom
 Now its time to put it all together.  The vast majority of front end web development involves taking an array of objects, looping over the array, and printing each object to the DOM.  Lets do that.  Say we have the following array of dinosaurs:
 ```js
 const dinosaurs = [
