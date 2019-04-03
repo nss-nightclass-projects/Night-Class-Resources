@@ -1,7 +1,7 @@
 # Javascript Array Methods
 
 #### Split
-Split takes a string and breaks it into an array.  Each letter becomes its own indexi in the new array
+Split takes a string and breaks it into an array.  Each letter becomes its own index in the new array
 ```js
 const bestFriend = “cow”;
 const bestFriendArray = bestFriend.split(); //[“c”, “o”, “w”]

@@ -106,7 +106,7 @@ For the next six months we will be working through four different milestones.  I
 
 * Step 1: Run this command `mkdir ~/workspace`
 * Step 2: Run this command `cd ~/workspace`
-* Step 3: The above two command should have made a workspace directory at the root of your machine and taked you into that folder. Now create all the subfolders we will need:
+* Step 3: The above two command should have made a workspace directory at the root of your machine and take you into that folder. Now create all the subfolders we will need:
 ![workspace file structure](../images/workspace_file_structure.png)
 
 ## Mini Challenge

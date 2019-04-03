@@ -6,7 +6,7 @@ If you want to look at the markdown documentation written by its makers you can 
 
 ## Syntax
 DON'T memorize the markdown syntax.  Go look it up if you don't remember it.  here are some great cheat sheets:
-* [Adam P Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Adam P Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Markdown for Github](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 

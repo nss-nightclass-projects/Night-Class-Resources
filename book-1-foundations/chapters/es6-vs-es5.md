@@ -1,16 +1,16 @@
 # Javascript: ES6 vs ES5
 
 ### The History of Javascript
-JavaScript was writen in May 1995 in 10 days by Brendan Eich.  It was originally called Mocha but was later renamed to LiveScript.  Netscape purchased the trademark for JavaScript from Sun Microsystems and it was offically named JavaScript in December 1995.
+JavaScript was written in May 1995 in 10 days by Brendan Eich.  It was originally called Mocha but was later renamed to LiveScript.  Netscape purchased the trademark for JavaScript from Sun Microsystems and it was officially named JavaScript in December 1995.
 
 It has the word Java in its name because that was a popular language at the time.  Other than sharing the same name there is absolutely no relationship between Java and JavaScript.
 
 Sometime between 1996 and 1996 Netscape took JavaScript to the Ecma Standards organization which is why later versions are called ECMAScript 1, 2, 3, 5, 6, and 7.
 
 ### What is ES6?
-ES5 or ECMAScript 5 was introduced in 2009.  It was the first JS release since 1999 so it was packed with a HUGE number of new features.  It included library support for JSON formatting, Array methods, and new Object methods to help with listing (for example Object.keys).  At this time ES5 is compeletely standard across ALL web browsers (except IE8 and older - they have some parts of ES5 but not all).
+ES5 or ECMAScript 5 was introduced in 2009.  It was the first JS release since 1999 so it was packed with a HUGE number of new features.  It included library support for JSON formatting, Array methods, and new Object methods to help with listing (for example Object.keys).  At this time ES5 is completely standard across ALL web browsers (except IE8 and older - they have some parts of ES5 but not all).
 
-ES6 (or ES2015) stands for ECMAScript 6.  It was introduced in 2015 and was the first MAJOR JS release in 16 years.  It has major differences in the way JS is written that mostly exist to help the developers who write it.  At this point features of it are standard across many browswers but not all.  To find out if you can use an ES6 feature on a specific browswer search for it [HERE](https://caniuse.com/).  There are transpilers out there like [Babel](https://babeljs.io/) and [Traceur](https://github.com/google/traceur-compiler) that allow you to write your code in ES6 and then compile the code down to ES5 so it will work with any browser.
+ES6 (or ES2015) stands for ECMAScript 6.  It was introduced in 2015 and was the first MAJOR JS release in 16 years.  It has major differences in the way JS is written that mostly exist to help the developers who write it.  At this point features of it are standard across many browsers but not all.  To find out if you can use an ES6 feature on a specific browser search for it [HERE](https://caniuse.com/).  There are transpilers out there like [Babel](https://babeljs.io/) and [Traceur](https://github.com/google/traceur-compiler) that allow you to write your code in ES6 and then compile the code down to ES5 so it will work with any browser.
 
 ### ES6 Methods we Will use Everyday
 * const
@@ -38,7 +38,7 @@ console.log(fruit) // undefined
 
 ```
 ### Template Literals
-Template Literals make string concatenation extremely easy.  Instead of using `+` signs everywhere we can make use of `${}` to imput variables.
+Template Literals make string concatenation extremely easy.  Instead of using `+` signs everywhere we can make use of `${}` to input variables.
 
 Traditional String Concatenation:
 ```js

@@ -20,11 +20,11 @@ Now its time to put it all together.  The vast majority of front end web develop
 const dinosaurs = [
   {
     dinoType: 't-rex',
-    description: 'Many teath.',
+    description: 'Many teeth.',
   },
   {
     dinoType: 'stegosaurus',
-    description: 'Spiky backy',
+    description: 'Spiky back',
   },
   {
     dinoType: 'velociraptor',
@@ -35,7 +35,7 @@ const dinosaurs = [
 
 In order to print these dinosaurs to the dom we will need to write two functions: `buildDinosaurs` and `printToDom`.
 
-The `buildDinosaurs` function will be responsible for looping over the dinosaurs array and building up a domstring that created a card for each dinosaur.  This function then passes that domstring to the `printToDom` function.  The final code for both functions looks like this:
+The `buildDinosaurs` function will be responsible for looping over the dinosaurs array and building up a domString that created a card for each dinosaur.  This function then passes that domString to the `printToDom` function.  The final code for both functions looks like this:
 ```js
 const printToDom = (divId, textToPrint) => {
   const selectedDiv = document.getElementById(divId);

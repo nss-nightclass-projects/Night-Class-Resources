@@ -86,7 +86,7 @@ const sonnet = "How like a winter hath my absence been From thee, the pleasure o
 Use the string methods we just covered to do the following:
 * Find and output the starting position of the word "orphans". (use a console.log for this)
 * Output the number of characters in the sonnet.(use a console.log for this)
-* Replace the first occurance of the string "winter" with "yuletide".
-* Replace all occurances of the string "the" with "a large".
+* Replace the first occurrence of the string "winter" with "yuletide".
+* Replace all occurrences of the string "the" with "a large".
 
 Once you have the final string print it to the sonnet div.

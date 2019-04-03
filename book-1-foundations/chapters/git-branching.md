@@ -6,7 +6,7 @@ Up to this point we have been following a simple git workflow:
 * Add, commit, and push to master
 * Start over
 
-For the most part this works ok until we have more than one person using the same repo.  Let work through the following scenario.  Two teams are workign on the same product at a well known tech company.  Lets call this company Bookface.
+For the most part this works ok until we have more than one person using the same repo.  Let work through the following scenario.  Two teams are working on the same product at a well known tech company.  Lets call this company BookFace.
 
 Team 1 is run by Anne.  Their job is to implement a new feature where people can react to comments.  It should look something like:
 
@@ -16,7 +16,7 @@ Team 2 is run by Buster.  Busters team is building a feature where users can sea
 
 ![find events](../images/find_events.png)
 
-On top of creating these new feature the Bookface need to function without interruption.  Users should never know that something is changing until the features are completed - they shouldn't see partial new features.
+On top of creating these new feature the BookFace need to function without interruption.  Users should never know that something is changing until the features are completed - they shouldn't see partial new features.
 
 Our current git workflow will not work for this.  If Anne and Buster are both making changes and commiting code to master then master will be polluted with code in various stages of done-ness.  The other option is for Anne and Buster to NEVER commit code until their feature is completely done - this is VERY risky and not a good option.
 
@@ -36,7 +36,7 @@ To start our process we will create a new repository in the exact same way we di
 * Inside that folder we will make a README.md file.
 * Inside the README.md file we will add a single line with the name of the project.
 * We will create a repo on github
-* We will connect the gihub repo to the local folder with `git remote add origin ...`
+* We will connect the github repo to the local folder with `git remote add origin ...`
 * We will add, commit, and push the changes to our README file to the master branch
 * This will make our github master and our local master branch look the same
 ![step1](../images/step1.png)
