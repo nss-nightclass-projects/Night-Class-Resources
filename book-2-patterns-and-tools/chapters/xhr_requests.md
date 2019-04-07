@@ -129,3 +129,22 @@ This line of code tells the request what type of request it is and from where.  
 ```js
 myRequest.send();
 ```
+
+Now lets look at the two functions that run in response to the XHR call.  These function MUST be written with `function`.  DO NOT write them with an arrow function.  Using an arrow function changes the scope of the function and makes it so we can't use the `this` keyword.
+
+The `executeThisCodeIfXHRFails` is the function that will run if the server comes back with an error.  Generally this function is used to log that an error happened.  We will do this with a `console.error` message.
+```js
+function executeThisCodeIfXHRFails(){
+  console.error('oh shit!');
+}
+```
+
+The `executeThisCodeAfterFileLoads` is the most important function in an XHR call.  It is the ONLY place we have access to the data from the XHR call.  The purpose of this function is to get the data, process it as needed, and send it off to be used.  When the data from the JSON file comes back it is a giant string.  We access it by typing `this.responseText`.  Here `this` is a javascript keyword that refers to the the call site.  Our call site is the XHR call itself because that call is what called the `executeThisCodeAfterFileLoads`.  So you can think of it as `this` = `myRequest`.  We take that giant string and use `JSON.parse` to turn it into a regular json object.
+```js
+function executeThisCodeAfterFileLoads(){
+  const data = JSON.parse(this.responseText);
+  domStringBuilder(data.rides);
+}
+```
+
+Once we have the actual data array we can send it off to the `domStringBuilder` just like normal. The `domStringBuilder` can then build up the string to print to the dom and call the `printToDom` function.
