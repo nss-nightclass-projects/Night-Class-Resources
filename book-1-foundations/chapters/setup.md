@@ -30,7 +30,7 @@ Visit the [homebrew home page](http://brew.sh/) and follow the single instructio
 
 ### Node
 
-Node is basically server side JavaScript.  We will be using it to serve up web pages and installing js libararies.  We will use brew to install it:
+Node is basically server side JavaScript.  We will be using it to serve up web pages and installing js libraries.  We will use brew to install it:
 
 ```sh
 brew install node
@@ -43,7 +43,7 @@ npm install -g http-server
 ```
 
 ### VS Code
-This is the GREATEST TEXT EDITOR OF ALL TIME.  All other text editors are sad in comparrison.  We will install it using brew
+This is the GREATEST TEXT EDITOR OF ALL TIME.  All other text editors are sad in comparison.  We will install it using brew
 ```sh
 brew cask install visual-studio-code
 ```
@@ -54,7 +54,7 @@ brew cask install visual-studio-code
 Visit the [Git powershell](http://www.git-scm.com/downloads) download page click the "Download for Windows" button, and once complete, install the software. Powershell is a command line utility that allows you to run most Unix command inside a Windows environment. This will help you have the same vernacular as the rest of the class, since having a *nix environment is preferred and is how the class is taught.
 
 ### Node
-Node is basically server side JavaScript.  We will be using it to serve up web pages and installing js libararies.  To install visit the node [website](https://nodejs.org/) and click on the green button with the version that says LTS next to it.
+Node is basically server side JavaScript.  We will be using it to serve up web pages and installing js libraries.  To install visit the node [website](https://nodejs.org/) and click on the green button with the version that says LTS next to it.
 
 ### HTTP-Server
 Http-server is a node plugin that allows us to run web pages.  We will install it using node's NPM (Node Package Manager) service.
@@ -63,7 +63,7 @@ npm install -g http-server
 ```
 
 ### VS Code
-This is the GREATEST TEXT EDITOR OF ALL TIME.  All other text editors are sad in comparrison.  We will install it via the VS Code [Website](https://code.visualstudio.com/)
+This is the GREATEST TEXT EDITOR OF ALL TIME.  All other text editors are sad in comparison.  We will install it via the VS Code [Website](https://code.visualstudio.com/)
 
 
 ## Installs For Everyone

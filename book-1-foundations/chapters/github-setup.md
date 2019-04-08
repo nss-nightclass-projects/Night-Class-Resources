@@ -1,6 +1,6 @@
 # Github Setup
 
-### Create SSH key
+## Create SSH key
 
 SSH is a technology that allows you to create a very secure connection between your computer, and a computer located somewhere else in the world. It's an acronym for Secure SHell. When you create an SSH key on your computer, it actually creates two files
 
@@ -16,7 +16,7 @@ Step 3: Check your github key using your terminal.
 ssh -T git@github.com
 ```
 
-### Set up your author information
+## Set up your author information
 1.  Check to see who your computer thinks you are:
 ```sh
 git config -l

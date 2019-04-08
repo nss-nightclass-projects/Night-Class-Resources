@@ -7,13 +7,13 @@
 * __Repository (repo):__ folder that contains your source code
 * __master:__ the branch where the source code is the most complete. On creation, your local repository will always be on the master branch.
 * __local:__ - refers to your personal machine. ‘Local changes’ are modifications that you have made and committed, but have not pushed to an external store (for us, Github).
-* __remote:__ refers to the remote servers/machines that store changes and allow for those changes to be pulled down/cloned onto another’s machine.
+* __remote:__ refers to the remote servers/machines that store changes and allow for those changes to be pulled down/cloned onto another's machine.
 
 ## Basic Git Flow:
 ![git flow](../images/git_flow.png)
 
 ## Basic Git Commands
-* Initalize repo - this lets your computer know that you will be using git to track files in the folder. It starts your git history and creates a .git folder wherever you run it.
+* Initialize repo - this lets your computer know that you will be using git to track files in the folder. It starts your git history and creates a .git folder wherever you run it.
 
   ```> git init```
 * Clone repo - this is how you pull down an existing repository.  We will discuss this when you get to your first group project.
