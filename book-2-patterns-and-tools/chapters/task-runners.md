@@ -36,3 +36,10 @@ To see instructions for how we are going to configure eslint and webpack click [
 
 ### Configuring Front End Dependencies
 To see instructions for how we are going to run bootstrap and jquery with webpack click [HERE](./webpack-frontend-dependencies.md).
+
+### Run Webpack
+Now that we have everything setup we can start running webpack.  Click [HERE](./webpack-run.md) to see how.
+
+#### Some extra stuff
+* [Adding images](./webpack-images.md) - how to add images from an images folder when you are using a webpack project
+* [Axios](./axios.md) - the new and improved XMLHttpRequest.
