@@ -5,8 +5,9 @@
 * [JSON](./chapters/json.md)
 * [XHR](./chapters/xhr_requests.md)
 2. Chapter 2 - ES6 Modules
-3. Chapter 3 - [Promises](./chapters/promises.md)
+3. Chapter 3 - [Webpack](./chapters/task-runners.md)
 4. Chapter 4 - [SASS](./sass.md)
+3. Chapter 6 - [Promises](./chapters/promises.md)
 
 
 ## Other Topics
