@@ -19,7 +19,7 @@ First we need to make an index.html.  This file need to live at `src/index.html`
 ```
 
 # main.scss
-Since we are no longer writing in css we need to creat a main.scss file.  This file should live in `src/styles.main.scss`.  In this file change the background color of the body.
+Since we are no longer writing in css we need to creat a main.scss file.  This file should live in `src/styles/main.scss`.  In this file change the background color of the body.
 ```css
 body {
   background-color: blue;
