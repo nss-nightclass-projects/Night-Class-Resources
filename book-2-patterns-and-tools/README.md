@@ -7,7 +7,6 @@
 2. Chapter 2 - ES6 Modules
 3. Chapter 3 - [Webpack](./chapters/task-runners.md)
 4. Chapter 4 - [SASS](./sass.md)
-3. Chapter 6 - [Promises](./chapters/promises.md)
 
 
 ## Other Topics
