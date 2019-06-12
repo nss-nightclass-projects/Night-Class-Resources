@@ -5,18 +5,15 @@
 `npm install firebase-tools -g`
 
 `firebase login`
-> run `firebase login --interactive` if you are getting the error `Error: Cannot run login:ci in non-interactive mode.`
 
-:warning: Windows users ... might have to use powershell :skull:
+:warning: Notes for windows users:
+* Use the integrated terminal in VS Code
+* If you are getting this error: `Error: Cannot run login:ci in non-interactive mode.` run the following command `firebase login --interactive`
 
 ## If Your Project Uses Webpack:
 1. [Once per project] Update the scripts section of your package.json to include a deploy script:
 ```json
 "scripts": {
-    "build": "NODE_ENV=production webpack",
-    "lint": "eslint ./src --ext .js --fix",
-    "dev": "NODE_ENV=development webpack-dev-server --content-base dist --hot",
-    "start": "npm run lint && npm run dev",
     "deploy": "npm run build && firebase deploy"
   },
 ```
