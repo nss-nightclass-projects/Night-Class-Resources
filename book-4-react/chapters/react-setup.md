@@ -77,7 +77,8 @@ Your scss styling should now work.
   "rules": {
     "no-console": [1, { "allow": ["error"] }],
     "no-debugger": 1,
-    "class-methods-use-this": 0
+    "class-methods-use-this": 0,
+    "linebreak-style": 0 
   }
 }
 ```
@@ -91,29 +92,12 @@ Your project should now be runing eslinting.  There is one major difference betw
 To use bootstrap with react we will use something called reactstrap.  This is an npm package that someone has made to create react components out of the bootstrap components.  We need both packages because they don't include the bootstrap css in reactstrap.
 * Install both components
 
-`npm install bootstrap reactstrap --save`
+`npm install bootstrap --save`
 * Add a button to app.js and import the bootrap css file
 
 At top of file: `import 'bootstrap/dist/css/bootstrap.min.css';`
 
 Inside render: `<button className='btn btn-danger'>HELP ME</button>`
-
-* Check that reactstrap is loaded by using the button component
-
-Import the button component:  `import { Button } from 'reactstrap';`
-
-Add in a reactstrap button:
-```
-<Button
-    tag="a"
-    color="success"
-    size="large"
-    href="http://reactstrap.github.io"
-    target="_blank"
->
-    View Reactstrap Docs
-</Button>
-```
 
 Bootstrap is now ready to go!
 
