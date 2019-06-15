@@ -57,7 +57,7 @@ Your folder structure should now look like this:
 
 ### Allow create-react-app to use scss instead of css
 On your command line run:
-```npm install node-sass --save```
+```npm install node-sass --save-dev```
 
 Your scss styling should now work.
 
@@ -86,7 +86,7 @@ Your scss styling should now work.
 ```
 
 * Install airbnb styles
-`npm install eslint-config-airbnb-base --save`
+`npm install eslint-config-airbnb-base --save-dev`
 
 Your project should now be runing eslinting.  There is one major difference between how we use eslint now and how we did before.  Now it serves as a tool - it will NOT fail your build if you have errors.  With the VS Code plugin you should see files with errors in red.  Do yourself a favor - fix the errors before you move on.  It will make your code cleaner and probably catch errors like misspelled words etc.
 
