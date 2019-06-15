@@ -35,6 +35,7 @@ You should now have all the create-react-app stuff pushed up to github and be on
 ### Create App Folder
 
 Right now there are a bunch of files called app.SOMETHING that are just hanging out in the root of the src folder.  Thats kinda anoying so lets move those into a App folder. Also move the logo file into that folder.   Next check the index.js file and make sure the path is correct to the App module. Your file structure should now look like this:
+
 ![initial file structure](../images/setup_move_app.png)
 
 ### Remove testing
@@ -51,6 +52,7 @@ We will need somewhere to hold our _variables.scss and other global styling file
 * Create a _variables.scss file in the styles folder and use it to create a variable that can be used to change the background color in index.scss
 
 Your folder structure should now look like this:
+
 ![with scss](../images/setup_scss.png)
 
 ### Allow create-react-app to use scss instead of css
