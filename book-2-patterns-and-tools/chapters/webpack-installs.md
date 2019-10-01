@@ -62,6 +62,7 @@ After doing the installs you should also see a file called package-lock.json.  T
 Now that we are compiling our code and installing third party packages we need a way to keep our projects from pushing up code that does not belong to us.  To do this we create a file called .gitignore that goes at the root of our project.  This file tells git to NOT track anything inside it.  We will add the following files:
 ```sh
 .vscode/
+.DS_Store
 package-lock.json
 node_modules/
 dist/
