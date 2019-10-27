@@ -20,7 +20,7 @@ The `.eslintrc` file is where we configure our rules for eslint.  Your file shou
 ```js
 {
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 9,
     "sourceType": "module"
   },
   "extends": "airbnb-base",
