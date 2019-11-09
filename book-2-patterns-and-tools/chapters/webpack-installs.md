@@ -68,6 +68,7 @@ package-lock.json
 node_modules/
 dist/
 build/
+.firebase/
 ```
 
 What are these things we are ignoring?
