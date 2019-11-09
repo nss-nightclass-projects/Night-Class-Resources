@@ -13,6 +13,7 @@ The `.eslintignore` file operates very similarly to the `.gitignore` file.  Anyt
 ```js
 webpack.config.js
 node_modules
+build
 ```
 
 ### .eslintrc
