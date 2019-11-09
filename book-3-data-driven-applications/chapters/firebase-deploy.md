@@ -27,6 +27,7 @@
     * Configure as a single-page app (rewrite all urls to /index.html)? (y/N) > type `y` and hit enter
     * IF it asks you if you want to overwrite > type `n` and hit enter
 4. run `npm run deploy`
+5. Modify your `.gitignore` - add the firebase folder `.firebase/`
 
 ### After Changes are made
 So you made some cool new changes to your project.  You did a PR and merged everything to master.  How do you get those changes deployed to firebase?  Easy!  Locally switch to master and pull down the changes.  Then run `npm run deploy`.  Then check that your changes are there.  Firebase does do some caching so if you don't see your changes clear your cache and look again.
