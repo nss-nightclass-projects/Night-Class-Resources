@@ -33,7 +33,8 @@ Now that we have made the file we can go in and modify it using vs code.  Change
   "main": "src/javascripts/main.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production --module-bind js=babel-loader"
+    "build": "webpack --mode production --module-bind js=babel-loader",
+    "deploy": "npm run build && firebase deploy"
   },
   "keywords": [],
   "author": "Zoe Ames",
