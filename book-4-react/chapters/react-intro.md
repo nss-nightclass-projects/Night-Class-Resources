@@ -31,7 +31,7 @@ tldr; ES6+
 > A Note on Imports: You will import React into every component file that you write
 
 ## JSX
-Things to know: 
+Things to know:
 - You must always have one main container (one parent tag) for all of the tags created.
 - We will write JSX to be returned from our component's render method. Multi-line JSX can be written if you include parenthesis around the JSX:
 ```javascript
@@ -54,7 +54,12 @@ class Chart extends React.Component {
   clickEventFunction = (e) => {
     // code goes here for what should trigger after the click event
   }
-  
+
   render() {  {/* Put JSX here */}  }
 }
 ```
+
+
+## Chrome Extension
+- Install the extension [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en). This will show up in your **dev tools** in the top bar (but only when you are viewing a website that is using react)
+![react-dev-tools](../images/react-dev-tools.png)

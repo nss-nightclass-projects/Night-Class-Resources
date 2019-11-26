@@ -2,7 +2,10 @@
 To set up react we will be using a scaffolding tool called [Create React App](https://github.com/facebook/create-react-app).
 
 ## What is create-react-app?
-create-react-app is a tool built by facebook that quickly sets up a React project.  The project was built with three main goals: one dependency (webpack does all the things), No configuration required (standard reasonable configurations for development and production builds), no lock-in (if you don't like the standard configuration you can eject and create your own).
+create-react-app is a tool built by facebook that quickly sets up a React project.  The project was built with three main goals:
+1. one dependency (webpack does all the things)
+2. No configuration required (standard reasonable configurations for development and production builds)
+3. no lock-in (if you don't like the standard configuration you can eject and create your own).
 
 Out of the box we will be able to enjoy the following great features:
 * REACT with JSX
@@ -65,50 +68,62 @@ Your scss styling should now work.
 ```
 {
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 9,
     "sourceType": "module"
   },
   "extends": ["airbnb-base", "react-app"],
   "globals": {
     "document": true,
     "window": true,
+    "$": true,
+    "XMLHttpRequest": true,
     "allowTemplateLiterals": true
   },
   "rules": {
     "no-console": [1, { "allow": ["error"] }],
     "no-debugger": 1,
     "class-methods-use-this": 0,
-    "linebreak-style": 0 
+    "linebreak-style": 0,
+    "max-len": [1,200,2]
   }
 }
 ```
 
 * Install airbnb styles
-`npm install eslint-config-airbnb-base --save`
+`npm install eslint-config-airbnb-base --save-dev`
 
 Your project should now be runing eslinting.  There is one major difference between how we use eslint now and how we did before.  Now it serves as a tool - it will NOT fail your build if you have errors.  With the VS Code plugin you should see files with errors in red.  Do yourself a favor - fix the errors before you move on.  It will make your code cleaner and probably catch errors like misspelled words etc.
 
-### Add bootstrap
-To use bootstrap with react we will use something called reactstrap.  This is an npm package that someone has made to create react components out of the bootstrap components.  We need both packages because they don't include the bootstrap css in reactstrap.
-* Install both components
+### Add front end dependencies
+Our main front end dependencies are axios, firebase, and bootstrap.  Install those using npm:
+```sh
+npm install axios bootstrap firebase --save
+```
 
-`npm install bootstrap --save`
-* Add a button to app.js and import the bootrap css file
+Next add a bootstrap button to the App component
+```js
+import React from 'react';
+import './App.scss';
 
-At top of file: `import 'bootstrap/dist/css/bootstrap.min.css';`
+function App() {
+  return (
+    <div className="App">
+      <button class="btn btn-danger">Bootstrap Button</button>
+    </div>
+  );
+}
 
-Inside render: `<button className='btn btn-danger'>HELP ME</button>`
+export default App;
+```
 
-Bootstrap is now ready to go!
+We need to add the bootstrap css file to our project to get the button styles working.  Add the following to `src/styles/main.scss`:
 
-### Add firebase
-* install firebase with npm (nothing new here)
+```scss
+@import '~bootstrap/dist/css/bootstrap.min.css';
+```
 
-`npm install firebase --save`
+#### JS parts of bootstrap
+Do you want to use a bootstrap component that requires javascript?  Generally we have done this by importing the bootstrap.js file (which also required jquery and popper.js).  This is not the preferred method with react.  If you want to use JS components with react you will need to install reactstrap.  Find instructions for that [HERE](https://reactstrap.github.io/)
 
 ## Github
 At this  point you can add, commit, and push everything to your setup branch.  You can then PR to master and merge.  It't time to write some react!
-
-## Chrome Extension
-- Install the extension [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en). This will show up in your **dev tools** in the top bar (but only when you are viewing a website that is using react)
-![react-dev-tools](../images/react-dev-tools.png)
