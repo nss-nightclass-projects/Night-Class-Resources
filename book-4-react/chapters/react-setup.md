@@ -108,7 +108,7 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <button class="btn btn-danger">Bootstrap Button</button>
+      <button className="btn btn-danger">Bootstrap Button</button>
     </div>
   );
 }
