@@ -108,6 +108,3 @@ For the next six months we will be working through four different milestones.  I
 * Step 2: Run this command `cd ~/workspace`
 * Step 3: The above two command should have made a workspace directory at the root of your machine and take you into that folder. Now create all the subfolders we will need:
 ![workspace file structure](../images/workspace_file_structure.png)
-
-## Mini Challenge
-Move the directory `html-css-101` you created in your HTML and CSS lesson and all of its contents from the `Desktop` into the directory `~/workspace/foundations/inclass`
