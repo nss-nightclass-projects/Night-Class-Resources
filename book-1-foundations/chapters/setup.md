@@ -39,7 +39,7 @@ brew install node
 ### HTTP-Server
 Http-server is a node plugin that allows us to run web pages.  We will install it using node's NPM (Node Package Manager) service.
 ```sh
-npm install -g http-server
+npm install -g http-server@0.8.0
 ```
 
 ### VS Code
