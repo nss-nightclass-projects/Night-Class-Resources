@@ -1,4 +1,7 @@
 # jQuery
+
+> [BEST JQUERY CHEAT SHEET](https://oscarotero.com/jquery/)
+
 > [Link to Slide Version](../images/jQuery.pdf)
 
 ## What is jQuery?
