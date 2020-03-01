@@ -5,7 +5,7 @@ Up until this point we have always accessed front end libraries via CDN links.  
 When we use frontend libraries we need to install them as dependencies NOT dev dependencies.  These libraries are REQUIRED in order to run the project.  We can install some common frontend libraries like this:
 
 ```sh
-npm install axios bootstrap jquery popper.js --save
+npm install axios bootstrap jquery popper.js @fortawesome/fontawesome-free --save
 ```
 You should now see these four packages under the dependencies object in the package.json file.  Our package.json file knows to save this stuff as regular dependencies because of the `--save` flag at the end of the line.
 
@@ -22,4 +22,10 @@ For the CSS we will import the scss version of bootstrap into our main.scss file
 For the JS we can import the node_module into main.js with the following code:
 ```js
 import 'bootstrap';
+```
+
+### Fontawesome
+Include the css file into our main.scss file.
+```
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
 ```
