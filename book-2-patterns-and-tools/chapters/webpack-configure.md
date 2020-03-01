@@ -87,8 +87,11 @@ The two libraries we are importing are `html-webpack-plugin` and `mini-css-extra
 
 `mini-css-extract-plugin` is a css extraction plugin.  We will be importing our SCSS into our javascript files (OMG crazy). This plugin searches through the javascript build and extracts out all the SCSS to create a css file that can then be linked to our index.html.
 
+`webpack` is exactly what it sounds like - the webpack library.  We are including it in order to add plugins to our build process.
+
 ### Entry
 The entry key is used to tell webpack where your entry point file is located.  Webpack by default has an entry point of `src/index.js`  but we are used to having an entry point of `main.js`.  So we can add the optional entry key to specify our own entry point.  We will sent the value of entry to the following path: `./src/javascripts/main.js`.
+
 ### Module
 The module section of this file allows us to create a bunch of tasks for webpack to complete.  We do this by creating each task as an object and putting all the tasks in an array thats called rules.  Lets go through each of these tasks.
 
@@ -161,11 +164,13 @@ This task uses the `file-loader` package to look for any image files (files that
 This task uses the `file-loader` package to look for any font files (files that end in woff, woff2, eot, ttf, or otf) and copies them over to the `build` folder.
 
 ### Plugins
-The plugins section is where we configure third party plugins.  In our case we are configuring the two packages we are requiring into this file.
+The plugins section is where we configure third party plugins.  In our case we are configuring the three packages we are requiring into this file.
 
 For the `html-webpack-plugin` package we need to give it the location of our `index.html` file and tell it what we want that file to be called when webpack builds this project (also `index.html`).
 
 For the `mini-css-extract-plugin` package we need to tell it what to name the output files.  In this case we are use variable substitution `[name].css`.  This tells the plugin to name the file the same thing in the output it was named in the input.  So a file we write called `main.scss` will be converted from scss to css and then written as `main.css` in the `build` folder.
+
+For the last plugin we are using `webpack`.  We would like to include `jquery` into our default build.  This way we can use jquery selectors and functions ANYWHERE without having to inport jqueyr into every file.  Using `webpack.ProvidePlugin` allows us to directly import jquery into our main project so `$` is available everywhere.
 
 ### Output
 The output section tells webpack where to put code that it processes and what to call it.  In our configuration we tell webpack to make a folder called `build` at the root of our project and to call the minified javascript file `bundle.js`;
