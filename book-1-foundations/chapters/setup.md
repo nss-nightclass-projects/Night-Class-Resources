@@ -49,12 +49,42 @@ brew cask install visual-studio-code
 ```
 
 ## Installs for Windows
-### Install Git Bash
+### Install the Windows Subsystem for Linux
 
-Visit the [Git powershell](http://www.git-scm.com/downloads) download page click the "Download for Windows" button, and once complete, install the software. Powershell is a command line utility that allows you to run most Unix command inside a Windows environment. This will help you have the same vernacular as the rest of the class, since having a *nix environment is preferred and is how the class is taught.
+You'll need to install and enable the Windows Subsystem for Linux by:
+1. Go to the `Start` menu (windows key) and search for `PowerShell`.
+2. Run PowerShell as an Administrator. To do this, find the PowerShell application, then right-click on it and choose "Open as adminsitrator".
+3. Copy and paste this command into your PowerShell:
+
+        Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+
+4. Restart your computer when prompted to
+
+Once you've completed the above steps **and** restarted your computer, you will install Ubuntu in the Microsoft Store [here](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab). We'll use this in the next step: Installing the Windows Terminal.
+
+### Install Windows Terminal
+
+Later in the instructions, we will ask you to type a command into your terminal. For Windows, this is the **Windows Terminal (Preview)** application using **Ubunutu**.
+
+Visit the [Windows Terminal (Preview)](https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab) download page and open it in the Microsoft Store App. This will be your default terminal (using Ubuntu) which you will use to navigate your file system, and run development tools throughout the course.
+
+Once Windows Terminal is installed:
+1. Go to the `Start` menu (windows key) and search for `Windows Terminal`
+2. Open `Windows Terminal (Preview)`
+3. This will open up a new PowerShell Tab by default. In the top left corner of the terminal click the `Down Arrow`, and select **Ubuntu** to open a new Ubuntu Tab.
+
+    > Ubuntu will begin to install and you'll be asked to wait for a minute or two for the installation to complete.
+
+4. Once Ubuntu is done installing, you'll be prompted to create a new user (and its password).
 
 ### Node
-Node is basically server side JavaScript.  We will be using it to serve up web pages and installing js libraries.  To install visit the node [website](https://nodejs.org/) and click on the green button with the version that says LTS next to it.
+
+You will install Node.js using the Windows Terminal. Open Windows Terminal, and in a **new Ubuntu Tab**, copy and paste the following lines:
+```
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+After a while, you will be prompted with a message asking for permissions. Using the arrow keys on your keyboard, select **Yes** and hit the enter key to continue installing Node.js.
 
 ### HTTP-Server
 Http-server is a node plugin that allows us to run web pages.  We will install it using node's NPM (Node Package Manager) service.
