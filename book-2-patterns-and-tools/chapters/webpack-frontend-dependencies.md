@@ -5,7 +5,7 @@ Up until this point we have always accessed front end libraries via CDN links.  
 When we use frontend libraries we need to install them as dependencies NOT dev dependencies.  These libraries are REQUIRED in order to run the project.  We can install some common frontend libraries like this:
 
 ```sh
-npm install axios bootstrap jquery popper.js @fortawesome/fontawesome-free --save
+npm install axios bootstrap firebase jquery popper.js @fortawesome/fontawesome-free --save
 ```
 You should now see these four packages under the dependencies object in the package.json file.  Our package.json file knows to save this stuff as regular dependencies because of the `--save` flag at the end of the line.
 
