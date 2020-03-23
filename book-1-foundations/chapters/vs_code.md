@@ -50,9 +50,10 @@ To install or manage your extensions go to the extension tab by clicking on the 
 Here are some good extensions to get your productivity going. Search for these names in the extension tab and click install to get them working.
 
 1.  [Auto Rename Tag](https://github.com/formulahendry/vscode-auto-rename-tag) - when you decide to rename an html tag this plugin automatically fixes the closing tag for you.
-2. [Bracket Pair Colorizer](https://github.com/CoenraadS/BracketPair) - this extension matches pairs of brackets and colors them for you.  Next time you are looking for a missing curly bracket or parenthesis just look for the one that doesn't have a closing tag of the same color
-3. [ESLint](https://github.com/Microsoft/vscode-eslint) - This extension checks your code for common errors using ESLint.  We will talk more about this a few months into class.
-4. [GitLens](https://github.com/eamodio/vscode-gitlens) - Gives you insight into what git stuff is going on inside your project.  You can see things like when the line was last modified and who modified it.
-5. [IntelliSense for CSS class names in HTML](https://github.com/Zignd/HTML-CSS-Class-Completion) - Auto completes HTML and CSS for any file that has been linked.  Never type those whole bootstrap class names again.
-6. [Markdown Preview Github Styling](https://github.com/mjbvz/vscode-github-markdown-preview-style) - changes VS Code's built in markdown preview to match the Github flavor.  Know exactly what those README files will look like before you push them.
-7. [Prettier - Code Formatter](https://github.com/prettier/prettier-vscode) - formats JS and CSS code inside a file.
+1. [Bracket Pair Colorizer](https://github.com/CoenraadS/BracketPair) - this extension matches pairs of brackets and colors them for you.  Next time you are looking for a missing curly bracket or parenthesis just look for the one that doesn't have a closing tag of the same color
+1. [ESLint](https://github.com/Microsoft/vscode-eslint) - This extension checks your code for common errors using ESLint.  We will talk more about this a few months into class.
+1. [GitLens](https://github.com/eamodio/vscode-gitlens) - Gives you insight into what git stuff is going on inside your project.  You can see things like when the line was last modified and who modified it.
+1. [IntelliSense for CSS class names in HTML](https://github.com/Zignd/HTML-CSS-Class-Completion) - Auto completes HTML and CSS for any file that has been linked.  Never type those whole bootstrap class names again.
+1. [Markdown Preview Github Styling](https://github.com/mjbvz/vscode-github-markdown-preview-style) - changes VS Code's built in markdown preview to match the Github flavor.  Know exactly what those README files will look like before you push them.
+1. [Prettier - Code Formatter](https://github.com/prettier/prettier-vscode) - formats JS and CSS code inside a file.
+1. [Visual Studio Code Live Share](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode) - We'll just download the package for now and get it all setup later on. Allows you to share your VS Code editor with your friends!
