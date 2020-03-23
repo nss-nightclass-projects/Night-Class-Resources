@@ -89,7 +89,7 @@ After a while, you will be prompted with a message asking for permissions. Using
 ### HTTP-Server
 Http-server is a node plugin that allows us to run web pages.  We will install it using node's NPM (Node Package Manager) service.
 ```sh
-npm install -g http-server
+sudo npm install -g http-server
 ```
 
 ### VS Code
