@@ -30,6 +30,13 @@ Use this when you are trying to find any occurrences of some text in the current
 This will open a small textbox in the upper right corner of the window where you can type in some text.  Every occurrence of the text you type will become highlighted.  Here is an example of looking for the word `markdown` in a file:
 ![local search](../images/vs_code_local_search.png)
 
+## Settings to Change
+These are things to make your life easier/your instructors lives easier/etc etc etc
+
+1. **Explorer: Compact Folders** - not checked
+1. **Editor: Tab Size** - 2
+1. **Files: Insert Final Newline** - checked
+1. **Files: Trim Final Newlines** - checked
 
 ## Extensions
 Extensions are what make VS code so popular and easy to use.  There are thousands of different plugins for everything you can imagine.  Most of them are written to make development easier and more efficient.
