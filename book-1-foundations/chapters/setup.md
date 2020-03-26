@@ -28,6 +28,14 @@ xcode-select --install
 
 Visit the [homebrew home page](http://brew.sh/) and follow the single instruction there to get it installed.  This is a package manager for OSX.  It makes installing cool stuff easy.
 
+### Git
+
+Git is how you and your teammates will work on a shard codebase during your time at NSS. Type in the following command to install. You can install the required software using Homebrew, which you just installed in the step above.
+
+```sh
+brew install git
+```
+
 ### Node
 
 Node is basically server side JavaScript.  We will be using it to serve up web pages and installing js libraries.  We will use brew to install it:
@@ -46,6 +54,26 @@ npm install -g http-server@0.8.0
 This is the GREATEST TEXT EDITOR OF ALL TIME.  All other text editors are sad in comparison.  We will install it using brew
 ```sh
 brew cask install visual-studio-code
+```
+
+### zsh/Oh My Zsh
+zsh is a replacement shell for bash, the erstwhile default. oh-my-zsh is a framework for the Z shell which makes the command line a nicer place to live
+1. Make sure zsh is installed:
+```sh
+brew install zsh zsh-completions
+```
+2. Install [Oh My Zsh](https://ohmyz.sh/) with the following command:
+```sh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+3. Enjoy! Once you get more comfortable you can change the theme, install plugins, and generally go nuts.
+
+### Show Hidden Files
+
+While you have your terminal open, enter in the following command.
+
+```sh
+defaults write com.apple.finder AppleShowAllFiles YES
 ```
 
 ## Installs for Windows
@@ -90,6 +118,18 @@ After a while, you will be prompted with a message asking for permissions. Using
 Http-server is a node plugin that allows us to run web pages.  We will install it using node's NPM (Node Package Manager) service.
 ```sh
 npm install -g http-server
+```
+
+### Homebrew
+
+Visit the [homebrew home page](http://brew.sh/) and follow the single instruction there to get it installed.
+
+### Git
+
+Git is how you and your teammates will work on a shard codebase during your time at NSS. Type in the following command to install. You can install the required software using Homebrew, which you just installed in the step above.
+
+```sh
+brew install git
 ```
 
 ### VS Code
