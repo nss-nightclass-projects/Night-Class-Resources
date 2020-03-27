@@ -90,6 +90,14 @@ You'll need to install and enable the Windows Subsystem for Linux by:
 
 Once you've completed the above steps **and** restarted your computer, you will install Ubuntu in the Microsoft Store [here](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab). We'll use this in the next step: Installing the Windows Terminal.
 
+### Install Ubuntu
+Once you have installed Ubuntu from the Microsoft Store, you will need to create a user for your new Ubuntu environment.
+1. Go to the `Start` menu (Windows key) and search for `Ubuntu`.
+1. Run the app and it should start to install Ubuntu
+1. Once Ubuntu is finished installing, you will see a prompt in the terminal to create a new UNIX user
+1. Enter your desired username and password
+1. You can now close this window after you have made a user with a password
+
 ### Install Windows Terminal
 
 Later in the instructions, we will ask you to type a command into your terminal. For Windows, this is the **Windows Terminal (Preview)** application using **Ubunutu**.
@@ -100,10 +108,6 @@ Once Windows Terminal is installed:
 1. Go to the `Start` menu (windows key) and search for `Windows Terminal`
 2. Open `Windows Terminal (Preview)`
 3. This will open up a new PowerShell Tab by default. In the top left corner of the terminal click the `Down Arrow`, and select **Ubuntu** to open a new Ubuntu Tab.
-
-    > Ubuntu will begin to install and you'll be asked to wait for a minute or two for the installation to complete.
-
-4. Once Ubuntu is done installing, you'll be prompted to create a new user (and its password).
 
 ### Node
 
