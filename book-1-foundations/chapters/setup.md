@@ -26,7 +26,11 @@ xcode-select --install
 
 ### Homebrew
 
-Visit the [homebrew home page](http://brew.sh/) and follow the single instruction there to get it installed.  This is a package manager for OSX.  It makes installing cool stuff easy.
+Install [homebrew](http://brew.sh/), a package manager.  It makes installing cool stuff easy.
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
 
 ### Git
 
@@ -126,7 +130,11 @@ npm install -g http-server
 
 ### Homebrew
 
-Visit the [homebrew home page](http://brew.sh/) and follow the single instruction there to get it installed.
+Install [homebrew](http://brew.sh/), a package manager.  It makes installing cool stuff easy.
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
 
 ### Git
 
