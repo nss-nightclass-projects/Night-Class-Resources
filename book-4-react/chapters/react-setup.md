@@ -70,7 +70,7 @@ Your scss styling should now work.
     "ecmaVersion": 9,
     "sourceType": "module"
   },
-  "extends": "airbnb-base",
+  "extends": ["airbnb-base", "react-app"],
   "globals": {
     "document": true,
     "window": true,
