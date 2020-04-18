@@ -67,20 +67,23 @@ Your scss styling should now work.
 ```
 {
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 9,
     "sourceType": "module"
   },
-  "extends": ["airbnb-base", "react-app"],
+  "extends": "airbnb-base",
   "globals": {
     "document": true,
     "window": true,
+    "$": true,
+    "XMLHttpRequest": true,
     "allowTemplateLiterals": true
   },
   "rules": {
     "no-console": [1, { "allow": ["error"] }],
     "no-debugger": 1,
     "class-methods-use-this": 0,
-    "linebreak-style": 0 
+    "linebreak-style": 0,
+    "max-len": [1,200,2]
   }
 }
 ```
