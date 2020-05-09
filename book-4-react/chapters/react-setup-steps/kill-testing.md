@@ -10,5 +10,16 @@ Do the following:
 ```json
 "test": "react-scripts test",
 ```
+## Edit title
+1. go to `public/index.html` and change the title tag
+
+## Modify .gitignore
+Add the following to the top of the .gitignore file
+```js
+.vscode/
+package-lock.json
+dist/
+.firebase/
+```
 
 [Return to Instructions](../react-setup.md)
