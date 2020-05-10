@@ -13,8 +13,16 @@ Add the following line to the top of the index.scss file:
 ```
 Bootstrap should now be ready to go - you can test by adding a button in App.js
 
+### Fontawesome
+Add the following line to the top of the index.scss file:
+```scss
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+```
+Fontawesome should now be ready to go - you can test by adding your favorite icon in App.js
+
+
 ### All the others
-Axios, fontawesome, and firebase should be good to go like usual - just import them where you need them.
+Axios and firebase should be good to go like usual - just import them where you need them.
 
 
 [Return to Instructions](../react-setup.md)
