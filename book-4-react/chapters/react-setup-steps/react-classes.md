@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h2>INSIDE APP COMPONENT</h2>
-        <button className="btn btn-info"><i class="fas fa-rocket"></i></button>
+        <button className="btn btn-info"><i className="fas fa-rocket"></i></button>
       </div>
     );
   }
