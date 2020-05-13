@@ -2,7 +2,7 @@
 Just like with modules there are certain front end dependencies we will want to install and use.
 
 ```shell
-npm install axios bootstrap firebase @fortawesome/fontawesome-free --save
+npm install axios bootstrap firebase @fortawesome/fontawesome-free prop-types --save
 ```
 ### Bootstrap
 Bootstrap and react are a little special together.  We installed bootstrap so we can use the css file.  If you need the javascript portions of bootstrap (like modals or carousels) install a package called reactstrap.
