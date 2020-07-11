@@ -1,6 +1,6 @@
 # Git and Github
 ## What is difference between Git and Github?
-* __Git:__ allows you to keep track of changes made to your code.  it is the most widely used version control software out there.  It is considered a modern development standard.  Sometimes it si referred to as distributed version control - this means work is done on a local computer and then pushed to the remote source of truth.
+* __Git:__ allows you to keep track of changes made to your code.  it is the most widely used version control software out there.  It is considered a modern development standard.  Sometimes it is referred to as distributed version control - this means work is done on a local computer and then pushed to the remote source of truth.
 * __GitHub:__ This is a web-based utility that hosts/stores Git Repository information.  It makes team collaboration easy.  It also is a record of what you have done at NSS - all your code is tracked and timestamped.  Looking at your GitHub over the course of 12 months will tell employers how you have grown.
 
 ## Git Terms
