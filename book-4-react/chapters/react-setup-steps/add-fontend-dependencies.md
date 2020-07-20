@@ -26,3 +26,7 @@ Axios and firebase should be good to go like usual - just import them where you 
 
 
 [Return to Instructions](../react-setup.md)
+
+Or, on to the next part:
+
+[Update App.js](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup-steps/react-classes.md)
