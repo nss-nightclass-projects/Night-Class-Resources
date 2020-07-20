@@ -17,4 +17,5 @@ Your file structure should now look like this:
 [Return to Instructions](../react-setup.md)
 
 Or, on to the next part:
+
 [Add eslint](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup-steps/add-eslint.md)
