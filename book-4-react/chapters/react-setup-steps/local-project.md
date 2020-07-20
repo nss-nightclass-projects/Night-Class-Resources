@@ -6,15 +6,15 @@ To start our react project we will use an npx command.
 In our case the facebook developers have built out an npx script that creates a quick build of react by -  installing all the required packages (via npm), setting up webpack, and building out the structure of a basic application.
 
 Basic syntax for starting a project is this:
-```js
+```bash
 npx create-react-app APPLICATIONNAME
 ```
 
 Lets make a new project:
-```js
+```bash
 npx create-react-app react-setup
 ```
 
-If the above command didn't work for you, you need to update npm.  Find an instructor to help you with that.
+If the above command didn't work for you, you need to update npm.  Find an instructor to help you with that. Usually a `npm install -g npm` will to the update for you
 
 [Return to Instructions](../react-setup.md)
