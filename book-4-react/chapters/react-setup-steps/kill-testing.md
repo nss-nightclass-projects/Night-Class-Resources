@@ -23,3 +23,7 @@ dist/
 ```
 
 [Return to Instructions](../react-setup.md)
+
+Or, on to the next part:
+
+[Enable SCSS](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup-steps/add-scss.md)
