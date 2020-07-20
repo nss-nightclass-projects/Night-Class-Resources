@@ -23,7 +23,7 @@ Create the `.eslintrc` file at the root of your project like usual and add the f
     "allowTemplateLiterals": true
   },
   "rules": {
-    "no-console": [1, { "allow": ["error"] }],
+    "no-console": [1, { "allow": ["error", "warn"] }],
     "no-debugger": 1,
     "class-methods-use-this": 0,
     "linebreak-style": 0,
@@ -43,3 +43,7 @@ There is one major difference between how we use eslint now and how we did befor
 
 
 [Return to Instructions](../react-setup.md)
+
+Or, on to the next part:
+
+[Add Front End Deps](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup-steps/add-fontend-dependencies.md)
