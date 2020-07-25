@@ -9,7 +9,7 @@ Your dev tools contain a wealth of information. But no need to be overwhelmed! Y
 ## Three Ways to Open
 1. Shortcut Keys (opens to network panel OR console panel):
     - Mac: `CMD + OPT + I` OR `CMD + OPT + J`
-    - Windows: `CTRL + SHIFT + I` OR `CTRL + OPT + J`
+    - Windows: `CTRL + SHIFT + I` OR `CTRL + OPT + J` OR `F12`
 1. Right Click
     - Right click on the screen and select inspect. Takes you to that HTML element.
 1. Menu
