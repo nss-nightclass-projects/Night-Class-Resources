@@ -15,4 +15,4 @@ You should now have all the create-react-app stuff pushed up to github
 
 or onto the next step:
 
-[Setup Branch/Remove Testing])https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup-steps/kill-testing.md)
+[Setup Branch/Remove Testing](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup-steps/kill-testing.md)
