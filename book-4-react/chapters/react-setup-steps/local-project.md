@@ -18,3 +18,7 @@ npx create-react-app react-setup
 If the above command didn't work for you, you need to update npm.  Find an instructor to help you with that. Usually a `npm install -g npm` will to the update for you
 
 [Return to Instructions](../react-setup.md)
+
+or onto the next step:
+
+[Github](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup-steps/github-setup.md)
