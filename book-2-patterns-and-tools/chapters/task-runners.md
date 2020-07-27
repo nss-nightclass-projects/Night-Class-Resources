@@ -5,7 +5,7 @@
 * Things we want to happen automatically:
   * Check our code for errors
   * Bundle all our JS files into 1 file (to rule them all)
-  * Convert SCSS into CSC
+  * Convert SCSS into CSS
   * Minify/Uglify our JS and CSS
   * Copy files to a location for deployment
 
