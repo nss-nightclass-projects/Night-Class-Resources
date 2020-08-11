@@ -33,7 +33,7 @@ The `.eslintrc` file is where we configure our rules for eslint.  Your file shou
     "allowTemplateLiterals": true
   },
   "rules": {
-    "no-console": [1, { "allow": ["error"] }],
+    "no-console": [1, { "allow": ["error", "warn"] }],
     "no-debugger": 1,
     "class-methods-use-this": 0,
     "linebreak-style": 0,
