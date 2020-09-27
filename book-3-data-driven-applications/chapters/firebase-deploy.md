@@ -4,6 +4,8 @@
 
 `npm install firebase-tools -g`
 
+NOTE: if after global installation, you have issues, you can run `npm install firebase-tools` in your specific project. If you run into permissions errors, use `sudo` before the command.
+
 2.  Log into your firebase account via google (1x per machine unless you get logged out)
 `firebase login`
 
@@ -21,7 +23,7 @@
 ```
 2. Create a Firebase project (if you don't already have one for the database, Firebase will cap it at 5, BUT it will also let you create more if you request them and mention you are in school).
 3. Run `firebase init`
-    * Select `hosting` using your arrow keys, hit the space bar and hit enter
+    * Select `hosting` using your arrow keys, **hit the space bar and hit enter**
     * Project Setup > select the project using your arrow keys, hit the space bar and hit enter
     * What do you want to use as your public directory? (public) > type `build` and hit enter
     * Configure as a single-page app (rewrite all urls to /index.html)? (y/N) > type `y` and hit enter
