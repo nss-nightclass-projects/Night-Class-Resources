@@ -39,6 +39,7 @@ NOTE: if after global installation, you have issues, you can run `npm install fi
     ```
     * Project Setup > select the project using your arrow keys, hit the space bar and hit enter
     * What do you want to use as your public directory? (public) > type `build` and hit enter
+    * Configure as a single-page app (rewrite all urls to /index.html)? (y/N) > type `y` and hit enter
     ```
     SAMPLE OUTPUT:
     === Hosting Setup
@@ -51,8 +52,7 @@ NOTE: if after global installation, you have issues, you can run `npm install fi
 
     ✔  Firebase initialization complete!
     ```
-    * Configure as a single-page app (rewrite all urls to /index.html)? (y/N) > type `y` and hit enter
-    * IF it asks you if you want to overwrite > type `n` and hit enter
+    * **IF it asks you if you want to overwrite > type `n` and hit enter**
 4. run `npm run deploy`
 5. Modify your `.gitignore` - add the firebase folder `.firebase/`
 
