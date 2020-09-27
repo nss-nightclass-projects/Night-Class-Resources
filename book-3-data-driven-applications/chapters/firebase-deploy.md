@@ -24,9 +24,33 @@ NOTE: if after global installation, you have issues, you can run `npm install fi
 2. Create a Firebase project (if you don't already have one for the database, Firebase will cap it at 5, BUT it will also let you create more if you request them and mention you are in school).
 3. Run `firebase init`
     * Select `hosting` using your arrow keys, **hit the space bar and hit enter**
+    ```
+    SAMPLE OUTPUT:
+    ? Which Firebase CLI features do you want to set up for this folder? Press Space to select features, then Enter to confirm your choices. 
+    Hosting: Configure and deploy Firebase Hosting sites
+    ```
     * Please select an option: using your arrow keys select **Use an existing project**
+    ```
+    SAMPLE OUTPUT:
+    === Project Setup
+    ? Please select an option: Use an existing project
+    ? Select a default Firebase project for this directory: fir-cows-958ae (firebase-cows)
+    i  Using project fir-cows-958ae (firebase-cows)
+    ```
     * Project Setup > select the project using your arrow keys, hit the space bar and hit enter
     * What do you want to use as your public directory? (public) > type `build` and hit enter
+    ```
+    SAMPLE OUTPUT:
+    === Hosting Setup
+    ? What do you want to use as your public directory? build
+    ? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+    ✔  Wrote build/index.html
+
+    i  Writing configuration info to firebase.json...
+    i  Writing project information to .firebaserc...
+
+    ✔  Firebase initialization complete!
+    ```
     * Configure as a single-page app (rewrite all urls to /index.html)? (y/N) > type `y` and hit enter
     * IF it asks you if you want to overwrite > type `n` and hit enter
 4. run `npm run deploy`
