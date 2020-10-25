@@ -1,6 +1,8 @@
 # Setting up React
 To set up react we will be using a scaffolding tool called [Create React App](https://github.com/facebook/create-react-app).
 
+[Intro Video](https://www.screencast.com/t/ayjiMtnasAeY)
+
 ## What is create-react-app?
 create-react-app is a tool built by facebook that quickly sets up a React project.  The project was built with three main goals:
 1. one dependency (webpack does all the things)
