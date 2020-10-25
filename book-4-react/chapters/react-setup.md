@@ -23,6 +23,9 @@ Out of the box we will be able to enjoy the following great features:
 - Install the extension [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en). This will show up in your **dev tools** in the top bar (but only when you are viewing a website that is using react)
 
 ## NEW REACT SETUP STEPS
+
+[Walkthrough Video](https://www.screencast.com/t/jJVYX4VK)
+
 Follow all theses steps (in the order listed) to get your new project up and running:
 1. [Create a new local react project](./react-setup-steps/local-project.md)
 1. [Github](./react-setup-steps/github-setup.md)
