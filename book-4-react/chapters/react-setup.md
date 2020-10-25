@@ -2,6 +2,7 @@
 To set up react we will be using a scaffolding tool called [Create React App](https://github.com/facebook/create-react-app).
 
 [Intro Video](https://www.screencast.com/t/ayjiMtnasAeY)
+[![Image of Intro Video](./intro.png)](https://www.screencast.com/t/ayjiMtnasAeY)
 
 ## What is create-react-app?
 create-react-app is a tool built by facebook that quickly sets up a React project.  The project was built with three main goals:
@@ -25,6 +26,7 @@ Out of the box we will be able to enjoy the following great features:
 ## NEW REACT SETUP STEPS
 
 [Walkthrough Video](https://www.screencast.com/t/jJVYX4VK)
+[![Image of React Steps Video](./react-steps.png)](https://www.screencast.com/t/jJVYX4VK)
 
 Follow all theses steps (in the order listed) to get your new project up and running:
 1. [Create a new local react project](./react-setup-steps/local-project.md)
