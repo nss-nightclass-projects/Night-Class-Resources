@@ -35,4 +35,4 @@ git config --global user.email "you@example.com"
 ```
 4. Run the first command again to make sure you are now set correctly
 #### Videos For Above:
-* [Set up global Git configuration](https://youtu.be/66EB9oxGMzQ)
+https://youtu.be/66EB9oxGMzQ
