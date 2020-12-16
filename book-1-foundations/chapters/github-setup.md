@@ -1,6 +1,11 @@
 # Github Setup
 
 ## Create SSH key
+### Videos:
+1. [Creating SSH Keys](https://youtu.be/znRMcNG9_qQ)
+1. [Adding SSH Keys to your GitHub Account](https://youtu.be/8hlmIObpMd4)
+
+### Steps
 
 SSH is a technology that allows you to create a very secure connection between your computer, and a computer located somewhere else in the world. It's an acronym for Secure SHell. When you create an SSH key on your computer, it actually creates two files
 
@@ -16,11 +21,11 @@ Step 3: Check your github key using your terminal.
 ssh -T git@github.com
 ```
 
-#### Videos For Above:
-1. [Creating SSH Keys](https://youtu.be/znRMcNG9_qQ)
-1. [Adding SSH Keys to your GitHub Account](https://youtu.be/8hlmIObpMd4)
-
 ## Set up your author information
+### Videos:
+* [Set up global Git configuration](https://youtu.be/66EB9oxGMzQ)
+
+### Steps
 1. Check to see who your computer thinks you are:
 ```sh
 git config -l
@@ -34,5 +39,3 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 4. Run the first command again to make sure you are now set correctly
-#### Videos For Above:
-* [Set up global Git configuration](https://youtu.be/66EB9oxGMzQ)
