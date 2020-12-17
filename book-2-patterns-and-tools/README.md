@@ -6,7 +6,7 @@
 * [XHR](./chapters/xhr_requests.md)
 2. Chapter 2 - ES6 Modules
 3. Chapter 3 - [Webpack](./chapters/task-runners.md)
-4. Chapter 4 - [SASS](./sass.md)
+4. Chapter 4 - [SASS](./chapters/sass.md)
 
 
 ## Other Topics
