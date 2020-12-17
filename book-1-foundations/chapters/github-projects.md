@@ -4,4 +4,4 @@
 
 Check out this [guide to planning a programming project](https://www.khanacademy.org/computing/computer-programming/programming/good-practices/a/planning-a-programming-project) to get a general sense of what you should be thinking about when planning your project.
 
-In this class, we will be using [Github Projects](https://help.github.com/articles/about-project-boards/) to plan each of our projects (whether they be individual or group assignments).
+In this class, we will be using the [Planning Repo](https://github.com/nss-nightclass-projects/team-planning) to guide us to plan each of our projects (whether they be individual or group assignments).
