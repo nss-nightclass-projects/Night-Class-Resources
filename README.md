@@ -1,3 +1,6 @@
+## NSS Learning Objectives
+![objectives](./nss-objectives.png)
+
 # Mastery Learning
 
 Welcome to an experiment in education. Learning software development isn't like learning anything else, so we're not going to treat it like anything else. This is likely going to be a very different experience from your high school chemistry class or your college intro to philosophy.
@@ -34,6 +37,3 @@ We're aiming for 100% of students to have 100% mastery of the material. This is 
 ### Why
 
 First, and most importantly, in software development, each concept builds upon the previous concept, so general understanding of each concept is necessary before moving on. Second, teaching adults over the course of a year is a unique situation, and the adults we accept into the program are expected to have the work ethic needed to forge their own path.
-
-## NSS Learning Objectives
-![objectives](./nss-objectives.png)
