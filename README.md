@@ -27,3 +27,6 @@ You must be ok with being uncomfortable.
 ### Why
 
 First, and most importantly, in software development, each concept builds upon the previous concept, so general understanding of each concept is necessary before moving on. Second, teaching adults over the course of a year is a unique situation, and the adults we accept into the program are expected to have the work ethic needed to forge their own path.
+
+## Before Class
+- [List of things to complete before class](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/before-class.md)
