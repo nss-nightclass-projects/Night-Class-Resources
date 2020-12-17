@@ -1,5 +1,8 @@
 # Book 3 - Data-Driven Applications
 
+## Learning Objectives
+![data-driven-apps](./images/data_driven_applications.png)
+
 ## Chapters
 * Chapter 1 - [Promises](./chapters/promises.md)
 * Chapter 2 - [APIs](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/APIs.md)
@@ -8,5 +11,3 @@
     * [Deploying with Firebase](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/firebase-deploy.md)
     * [Deploy with Netlify](https://github.com/nss-nightclass-projects/REACT-Deployment-Netlify)
 
-## Learning Objectives
-![data-driven-apps](./images/data_driven_applications.png)
