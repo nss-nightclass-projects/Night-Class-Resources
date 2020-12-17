@@ -1,5 +1,8 @@
 # Book 2 - Patterns and Tools
 
+## Learning Objectives
+![patterns-and-tools](./images/patterns_and_tools.png)
+
 ## Chapters
 1. Chapter 1 - JSON and XHR
 * [JSON](./chapters/json.md)
@@ -11,6 +14,3 @@
 
 ## Other Topics
 * Bonus 1 - [Jquery](./chapters/jquery.md)
-
-## Learning Objectives
-![patterns-and-tools](./images/patterns_and_tools.png)
