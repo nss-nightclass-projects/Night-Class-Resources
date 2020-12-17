@@ -9,7 +9,7 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
 
 ## Chapters
 * Chapter 1 - Setup
-  * [Setup](./chapters/setup.md)
+  * [Setup/Installs](./chapters/setup.md)
 * Chapter 2 - HTML and CSS
   * [HTML](./chapters/HTML.md)
   * [CSS](./chapters/css.md)
