@@ -1,4 +1,4 @@
-# Book 3 - Data-Driven Applications
+# Book 4 - React
 
 ## Chapters
   * [Setting up a React Project](./chapters/react-setup.md)
