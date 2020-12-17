@@ -177,7 +177,7 @@ You're going to create an HTML component to represent a political candidate. Spe
 
 Make sure you use good BEM-style class names for each element in your components. Put a comment above each component explaining what it is.
 
-## UI/UX Challenge
+## Stretch Goals: UI/UX Challenge
 **This is an optional challenge once you meet MVP. Make a new GitHub branch for this challenge.**
 
 > Billboard 101 - Web pages should be designed in such a way that they are easy to scan.
