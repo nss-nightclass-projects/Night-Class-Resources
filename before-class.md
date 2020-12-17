@@ -11,10 +11,10 @@ Start at the top of this list and work your way down.  Things are listed in prio
 1. Install Google Chrome if you haven't already
 1. Visit [Zoom](https://zoom.us/) and sign up with the same email address you gave to NSS
 1. Download the [Zoom Client For Meetings](https://zoom.us/download#client_4meeting) and login to your zoom account there as well
-1. [Mac Installs](https://github.com/nashville-software-school/client-side-mastery/blob/master/book-1-martins-aquarium/chapters/GETTING_STARTED_MAC.md)
+1. [Mac Installs](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/mac-installs.md)
 1. Windows Installs
-    - [Python Cohorts: Installations for Windows](https://github.com/nashville-software-school/client-side-mastery/blob/master/book-1-martins-aquarium/chapters/GETTING_STARTED_WINDOWS.md)
-    - [C# Cohorts: Installations for Windows](https://github.com/nashville-software-school/client-side-mastery/blob/master/book-1-martins-aquarium/chapters/GETTING_STARTED_WINDOWS_C_SHARP.md)
+    - [Python Cohorts: Installations for Windows](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/GETTING_STARTED_WINDOWS.md)
+    - [C# Cohorts: Installations for Windows](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/GETTING_STARTED_WINDOWS_C_SHARP.md)
 1. Create a [github account](https://github.com).  Future employers will see this and you don't want to change it (git history is important) so think carefully about what username you choose.  For almost all students I suggest just going with some version of your first and last name.
 1. Add your photo to slack **and** github.  Of your face - NOT your cat, dog, dinosaur, or BFF.  Your real face...semi recently.
 1. Login to [CodeTracker](https://codeTracker.netlify.app)
