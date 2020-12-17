@@ -5,6 +5,8 @@ In this book, you will build a strong foundation of skills and practices that wi
 You will learn not only the basics of coding, design, and teamwork skills, but you will also unlock the secrets and power of your computer, making it bend to your will. Your computer is the instrument of the craft, and to become a true professional, you must have proficiency and knowledge of it.
 
 ## Chapters
+* Chapter 0 - Getting Started
+  * [Before Class](./chapters/before-class.md)
 * Chapter 1 - Setup
   * [Setup](./chapters/setup.md)
 * Chapter 2 - HTML and CSS
