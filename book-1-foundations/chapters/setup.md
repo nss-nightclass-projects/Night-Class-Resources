@@ -6,13 +6,9 @@ Up until now, you didn't have the power to destroy your machine, but within the 
 
 **Seriously, right now!**
 
-- [Mac Installs](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/mac-installs.md)
-
-## Online Services
-
-### Github
-
-Github is the primary site that software developers throughout the world use to store their code, and share it with other developers. Visit the [sign up page](https://github.com/join) and create your own, free account.
+- 🍎 [Mac Installs](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/mac-installs.md)
+- 💻 [Python Cohorts: Installations for Windows](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/GETTING_STARTED_WINDOWS.md)
+- 💻 [C# Cohorts: Installations for Windows](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/GETTING_STARTED_WINDOWS_C_SHARP.md)
 
 ## Installs For Everyone
 ### Install Slack
@@ -22,3 +18,9 @@ Do not use the browser-based interface for Slack. [Download](https://slack.com/d
 ### Google Chrome
 
 [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html) is the most popular browser for web developers because of the powerful tools it provides to test code, manipulate documents, and measure performance.
+
+### Online Services
+
+#### Github
+
+Github is the primary site that software developers throughout the world use to store their code, and share it with other developers. Visit the [sign up page](https://github.com/join) and create your own, free account.
