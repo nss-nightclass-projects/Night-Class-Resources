@@ -6,6 +6,8 @@ Up until now, you didn't have the power to destroy your machine, but within the 
 
 **Seriously, right now!**
 
+## Installs By Machine
+
 - 🍎 [Mac Installs](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/mac-installs.md)
 - 💻 [Python Cohorts: Installations for Windows](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/GETTING_STARTED_WINDOWS.md)
 - 💻 [C# Cohorts: Installations for Windows](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/GETTING_STARTED_WINDOWS_C_SHARP.md)
