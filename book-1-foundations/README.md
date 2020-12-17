@@ -15,7 +15,6 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
 * Chapter 3 - Github
   * [Git and Github](./chapters/git-and-github.md)
   * [Git Branching](./chapters/git-branching.md)
-  * [Github Projects](./chapters/github-projects.md)
 * Chapter 4 - HTML and CSS
   * [HTML](./chapters/HTML.md)
   * [CSS](./chapters/css.md)
@@ -29,6 +28,7 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
   * [Arrays Methods](./chapters/js-array-methods.md)
 * Chapter 6 - Other
   * [VS Code](./chapters/vs_code.md)
+  * [Github Projects](./chapters/github-projects.md)
   * [Chrome Dev Tools & Debugging](./chapters/dev-tools.md)
   * [Wireframes](./chapters/wireframes.md)
   * [Markdown](./chapters/markdown.md)
