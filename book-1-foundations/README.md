@@ -17,7 +17,6 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
 * Chapter 3 - Command Line
   * [Command Line Basics](./chapters/command-line.md)
 * Chapter 4 - Github
-  * [Github Setup](./chapters/github-setup.md)
   * [Git and Github](./chapters/git-and-github.md)
   * [Git Branching](./chapters/git-branching.md)
   * [Github Projects](./chapters/github-projects.md)
