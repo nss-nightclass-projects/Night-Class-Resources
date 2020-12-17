@@ -10,7 +10,8 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
 ## Chapters
 * Chapter 1 - Setup
   * [Setup/Installs](./chapters/setup.md)
-* Chapter 2 - Command Line
+* Chapter 2 - Tooling
+  * [VS Code](./chapters/vs_code.md)
   * [Command Line Basics](./chapters/command-line.md)
 * Chapter 3 - Github
   * [Git and Github](./chapters/git-and-github.md)
@@ -27,7 +28,6 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
   * [Arrays and Looping](./chapters/js-array-looping.md)
   * [Arrays Methods](./chapters/js-array-methods.md)
 * Chapter 6 - Other
-  * [VS Code](./chapters/vs_code.md)
   * [Github Projects](./chapters/github-projects.md)
   * [Chrome Dev Tools & Debugging](./chapters/dev-tools.md)
   * [Wireframes](./chapters/wireframes.md)
