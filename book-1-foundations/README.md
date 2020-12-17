@@ -4,6 +4,9 @@ In this book, you will build a strong foundation of skills and practices that wi
 
 You will learn not only the basics of coding, design, and teamwork skills, but you will also unlock the secrets and power of your computer, making it bend to your will. Your computer is the instrument of the craft, and to become a true professional, you must have proficiency and knowledge of it.
 
+## Learning Objectives
+![foundations](./images/foundations.png)
+
 ## Chapters
 * Chapter 1 - Setup
   * [Setup](./chapters/setup.md)
@@ -34,6 +37,3 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
   * [The DOM](./chapters/dom.md)
   * [JS Events](./chapters/js-events.md)
   * [Dynamic Event Listeners](./chapters/dynamic-events.md)
-
-## Learning Objectives
-![foundations](./images/foundations.png)
