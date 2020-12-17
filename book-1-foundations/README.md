@@ -20,7 +20,6 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
   * [Git and Github](./chapters/git-and-github.md)
   * [Git Branching](./chapters/git-branching.md)
   * [Github Projects](./chapters/github-projects.md)
-  * [Advanced Git (Git for Teams)](./chapters/git-for-teams.md)
 * Chapter 5 - JavaScript
   * [ES6 vs. ES5](./chapters/es6-vs-es5.md)
   * [Functions](./chapters/js-functions.md)
