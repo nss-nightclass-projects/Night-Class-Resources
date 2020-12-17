@@ -7,7 +7,7 @@ Wireframes should be something you can create/edit easily and should be accessib
 > Wireframes in Group Projects: wireframes are useful in agreeing and implementing a uniform user interface (UI) throughout an application.
 
 ## Wireframe Tools
-- Free, Web-based Option: [Moqups](https://moqups.com/)
+- Free, Web-based Option: [Moqups](https://moqups.com/), [Figma](https://figma.com)
 - Photos of hand-drawn wireframes on whiteboards or paper
 - Professional Programs, i.e. Photoshop
   - Only use these if you already have experience using the application
