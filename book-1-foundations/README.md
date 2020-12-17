@@ -8,15 +8,15 @@ You will learn not only the basics of coding, design, and teamwork skills, but y
 ![foundations](./images/foundations.png)
 
 ## Chapters
-* Chapter 1 - Setup
+* ### Chapter 1 - Setup
   * [Setup/Installs](./chapters/setup.md)
-* Chapter 2 - Tooling
+* ### Chapter 2 - Tooling
   * [VS Code](./chapters/vs_code.md)
   * [Command Line Basics](./chapters/command-line.md)
-* Chapter 3 - Github
+* ### Chapter 3 - Github
   * [Git and Github](./chapters/git-and-github.md)
   * [Git Branching](./chapters/git-branching.md)
-* Chapter 4 - HTML and CSS
+* ### Chapter 4 - HTML and CSS
   * [HTML](./chapters/HTML.md)
   * [CSS](./chapters/css.md)
   * [HTML and CSS Tooling](./chapters/HTML-CSS-Tooling.md)
