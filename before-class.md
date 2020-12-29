@@ -22,7 +22,7 @@ Start at the top of this list and work your way down.  Things are listed in prio
 If you have any questions, drop them in the cohort slack channel.
 
 ## Prework
-1. [Prework](https://nashville-software-school.github.io/web-development-foundations/) - This should be your final push to get all the prework done. Ask questions in slack, answer questions in slack, and generally try to help each other out!
+1. [Prework](https://nashville-software-school.github.io/webdev-foundations-course/) - This should be your final push to get all the prework done. Ask questions in slack, answer questions in slack, and generally try to help each other out!
 
 1. Once you are completed with your prework and your request has been approved to join [CodeTracker](https://codetracker.netlify.app), move the relevant prework cards over and submit the link to your profiles on the cards.
 
