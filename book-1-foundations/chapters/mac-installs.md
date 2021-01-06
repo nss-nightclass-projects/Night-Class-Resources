@@ -76,6 +76,12 @@ code () {
 
 Visit the [Node.js](https://www.nodejs.org) site and install the LTS release.
 
+### HTTP-Server
+Http-server is a node plugin that allows us to run web pages.  We will install it using node's NPM (Node Package Manager) service.	Http-server is a node plugin that allows us to run web pages.  We will install it using node's NPM (Node Package Manager) service.
+```sh	```sh
+npm install -g http-server@0.8.0	npm install -g http-server@0.8.0
+```	```
+
 ## Xcode Command Line Tools
 
 Since you are going to be learning how to be a professional software developer, you will be using your computer terminal heavily. OSX users need to install some baseline tools to use more advanced things later in the course.
