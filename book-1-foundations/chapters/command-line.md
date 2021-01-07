@@ -59,6 +59,7 @@ For all these commands `>` indicates a code block and `#` indicates a comment.  
 8. Deleting files/folders - delete file/folder this can't be undone
 
     ```> rm cat.html  # removes the cat.html file```
+    
     ```> rm -rf cookies  # removes the cookies folder and everything inside it```
 
     :exclamation: WARNING: :exclamation:
