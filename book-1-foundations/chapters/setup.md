@@ -6,12 +6,6 @@ Up until now, you didn't have the power to destroy your machine, but within the 
 
 **Seriously, right now!**
 
-## Installs By Machine
-
-- 🍎 [Mac Installs](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/mac-installs.md)
-- 💻 [Python Cohorts: Installations for Windows](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/GETTING_STARTED_WINDOWS.md)
-- 💻 [C# Cohorts: Installations for Windows](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/GETTING_STARTED_WINDOWS_C_SHARP.md)
-
 ## Installs For Everyone
 ### Install Slack
 
@@ -26,3 +20,9 @@ Do not use the browser-based interface for Slack. [Download](https://slack.com/d
 #### Github
 
 Github is the primary site that software developers throughout the world use to store their code, and share it with other developers. Visit the [sign up page](https://github.com/join) and create your own, free account.
+
+## Installs By Machine
+
+- 🍎 [Mac Installs](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/mac-installs.md)
+- 💻 [Python Cohorts: Installations for Windows](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/GETTING_STARTED_WINDOWS.md)
+- 💻 [C# Cohorts: Installations for Windows](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/GETTING_STARTED_WINDOWS_C_SHARP.md)
