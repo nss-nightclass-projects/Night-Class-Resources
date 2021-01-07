@@ -33,6 +33,13 @@ This will open a small textbox in the upper right corner of the window where you
 ## Settings to Change
 These are things to make your life easier/your instructors lives easier/etc etc etc
 
+To open your user and workspace settings, use the following VS Code menu command:
+
+- On Windows/Linux - **File > Preferences > Settings**
+- On macOS - **Code > Preferences > Settings**
+
+You can also open the Settings editor from the Command Palette (⇧⌘P) with Preferences: Open Settings or use the keyboard shortcut (⌘,).
+
 1. **Explorer: Compact Folders** - not checked
 1. **Editor: Tab Size** - 2
 1. **Files: Insert Final Newline** - checked
