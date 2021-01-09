@@ -46,6 +46,14 @@ Once Windows Terminal is installed:
 
 Visit the [Node.js](https://www.nodejs.org) site and click on the install button that has "LTS" in it. Once you download the software, install it, accepting all of the defaults along the way.
 
+### HTTP-Server
+Http-server is a node plugin that allows us to run web pages.  We will install it using node's NPM (Node Package Manager) service.	Http-server is a node plugin that allows us to run web pages.  We will install it using node's NPM (Node Package Manager) service.
+
+```sh
+npm install -g http-server@0.8.0
+```
+
+
 ### Create SSH key
 
 SSH is a technology that allows you to create a very secure connection between your computer, and a computer located somewhere else in the world. It's an acronym for Secure SHell. When you create an SSH key on your computer, it actually creates two files
