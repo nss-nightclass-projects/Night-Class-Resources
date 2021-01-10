@@ -61,9 +61,6 @@ SSH is a technology that allows you to create a very secure connection between y
 1. A public key file that you share with other people and computers. It is usually named `id_rsa.pub`.
 1. A private key file that you never, ever, ever, ever, ever share with anyone. It is usually named `id_rsa`.
 
-### Steps and videos to help you complete these steps
-- [SSH Key Steps](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-1-foundations/chapters/github-setup.md)
-
 ### Creating Your SSH Key - Video
 
 Watch a short video for [creating an SSH key in the terminal](https://youtu.be/znRMcNG9_qQ) so that you an work with Github.
