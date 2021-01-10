@@ -150,5 +150,3 @@ Watch a short video for [creating an SSH key in the terminal](https://youtu.be/z
 ### Add SSH Key to Github Account
 
 Now watch the video for [adding your SSH key to your Github account](https://youtu.be/8hlmIObpMd4).
-
-Now watch the video for [adding your SSH key to your Github account](https://youtu.be/8hlmIObpMd4).
