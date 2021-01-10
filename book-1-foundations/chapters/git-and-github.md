@@ -38,6 +38,9 @@
 ```> git push origin master```
 
 ## How to Push a Simple Repository to GitHub
+
+VIDEO: [Walkthrough Video](https://player.vimeo.com/video/498796492)
+
 1. Make a folder locally with a readme file in it
 ```sh
 > cd ~/workspace/foundations/inclass
