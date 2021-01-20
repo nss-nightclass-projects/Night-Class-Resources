@@ -1,6 +1,6 @@
 # Deploying Your Project With Firebase
 
-You have two deploy options. You can deploy with Firebase or Netlify. These instructions are to deploy with Firebase. To deploy using Netlify, find the instructions [here](https://github.com/nss-nightclass-projects/deploy-react-app-with-netlify)
+You have two deploy options. You can deploy with Firebase or Netlify. These instructions are to deploy with Firebase. To deploy using Netlify, find the instructions [here](https://github.com/nss-nightclass-projects/REACT-Deployment-Netlify)
 
 ## Get Started with Firebase Deploy
 1.  Globally install the Firebase tools on your machine (1x per machine)
