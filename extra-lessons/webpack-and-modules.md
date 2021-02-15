@@ -2,6 +2,14 @@
 
 The goal of this lesson is to show how to create a new webpack instance from the webpack template, move code over from one project to another, and then modularize the code.
 
+**By the end of this you should be able to:**
+
+- Start a new project using the Webpack Template
+- Understand the file structure and major files used and why
+- Read and understand errors in the terminal from the ESLint confiiguration
+- Convert old projects to Webpack
+- Understand how to create ES6 Modules and why they are useful
+
 ## Get Started
 - Navigate to your Cohort Organization in Github
   - EXAMPLE: [nss-evening-cohort-14](https://github.com/nss-evening-cohort-14)
