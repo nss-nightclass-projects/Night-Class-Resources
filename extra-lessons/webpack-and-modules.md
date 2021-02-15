@@ -8,3 +8,7 @@ The goal of this lesson is to show how to create a new webpack instance from the
 - Go ahead and pull up the sample [Sorting Hat Project](https://github.com/drteresavasquez/sorting-hat) for use later
 - Find in the 'Pinned repositories', the `webpack-template` repo
 - Watch the video to follow along
+
+## VIDEOS:
+- [Part 1: Setting Up Webpack](https://vimeo.com/512633280/c539450270)
+
