@@ -68,12 +68,15 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery"
-    })
+    }),
+    new webpack.DefinePlugin( {
+      'process.env': JSON.stringify(process.env || dotenv.parsed),
+    }),
   ],
   output: {
-		path: __dirname + "/build",
-		filename: "bundle.js"
-	}
+    path: __dirname + "/build",
+    filename: "bundle.js"
+  }
 };
 ```
 
@@ -164,13 +167,15 @@ This task uses the `file-loader` package to look for any image files (files that
 This task uses the `file-loader` package to look for any font files (files that end in woff, woff2, eot, ttf, or otf) and copies them over to the `build` folder.
 
 ### Plugins
-The plugins section is where we configure third party plugins.  In our case we are configuring the three packages we are requiring into this file.
+The plugins section is where we configure third party plugins.  In our case we are configuring the four packages we are requiring into this file.
 
 For the `html-webpack-plugin` package we need to give it the location of our `index.html` file and tell it what we want that file to be called when webpack builds this project (also `index.html`).
 
 For the `mini-css-extract-plugin` package we need to tell it what to name the output files.  In this case we are use variable substitution `[name].css`.  This tells the plugin to name the file the same thing in the output it was named in the input.  So a file we write called `main.scss` will be converted from scss to css and then written as `main.css` in the `build` folder.
 
-For the last plugin we are using `webpack`.  We would like to include `jquery` into our default build.  This way we can use jquery selectors and functions ANYWHERE without having to inport jqueyr into every file.  Using `webpack.ProvidePlugin` allows us to directly import jquery into our main project so `$` is available everywhere.
+For the next two plugins we are using `webpack`:
+- We would like to include `jquery` into our default build.  This way we can use jquery selectors and functions ANYWHERE without having to inport jquery into every file.  Using `webpack.ProvidePlugin` allows us to directly import jquery into our main project so `$` is available everywhere.
+- We would like to ensure that our API keys and enviorment variables are secure and acessible in our code, so we are using the `DefinePlugin` to tell our installation where to find the vars in both dev and prod environments.
 
 ### Output
 The output section tells webpack where to put code that it processes and what to call it.  In our configuration we tell webpack to make a folder called `build` at the root of our project and to call the minified javascript file `bundle.js`;
