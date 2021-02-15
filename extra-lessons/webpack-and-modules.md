@@ -22,7 +22,7 @@ The goal of this lesson is to show how to create a new webpack instance from the
     - js file...watch that terminal light up red like it is christmas!: https://github.com/drteresavasquez/sorting-hat-webpack/blob/main/src/javascripts/main.js
 
 
-## Assignment
+## Assignment 1 - Stop the BLOOD!!!
 - Fix your errors:
   - Read each error
   - check the line number
@@ -31,7 +31,7 @@ The goal of this lesson is to show how to create a new webpack instance from the
 - When your terminal is green, your app should run just as it did outside of webpack YAY!!
 - If you have errors that may have been more cryptic in nature we will walk through errors as a class.
 
-## Challenge Assignment - Modules
+## Assignment 2 - Modules
 - Video Starter
 
 1. Get everything out of the HTML page. The only thing that should be in there is the body tag - create a component for all the stuff that was in the HTML file.
