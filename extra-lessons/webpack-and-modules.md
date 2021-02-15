@@ -12,7 +12,7 @@ The goal of this lesson is to show how to create a new webpack instance from the
 ## VIDEOS:
 - [Part 1: Setting Up Webpack (~ 8 minutes)](https://vimeo.com/512633280/c539450270) - Using the template and getting it running on your machine
 - [Part 2: Walk through what is up! (~ 11 minutes)](https://vimeo.com/512648178/8a99b2600b) - Stepping through the readme and learning about the new environment
-- COMING: [Part 3: Let's talk about this new stuff (~ 8 minutes)](https://vimeo.com/512659400/be86462f5c) - Talking through the structure of our project and some important files
+- [Part 3: Let's talk about this new stuff (~ 8 minutes)](https://vimeo.com/512659400/be86462f5c) - Talking through the structure of our project and some important files
 - COMING: [Part 4: Rubber...meet the road](#)
   - Pull up the [Sample Sorting Hat Project](https://github.com/drteresavasquez/sorting-hat)
   - Copy/paste stuff from Sorting Hat in this order while watching terminal for errors
