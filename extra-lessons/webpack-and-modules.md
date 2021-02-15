@@ -10,8 +10,8 @@ The goal of this lesson is to show how to create a new webpack instance from the
 - Watch the video to follow along
 
 ## VIDEOS:
-- [Part 1: Setting Up Webpack - ~ 8 minutes](https://vimeo.com/512633280/c539450270) - Using the template and getting it running on your machine
-- COMING: [Part 2: Walk through what is up! ~ 11 minutes](#)
+- [Part 1: Setting Up Webpack (~ 8 minutes)](https://vimeo.com/512633280/c539450270) - Using the template and getting it running on your machine
+- COMING: [Part 2: Walk through what is up! (~ 11 minutes)](https://vimeo.com/512648178/8a99b2600b) - Stepping through the readme and learning about the new environment
 - COMING: [Part 3: Let's talk about this new stuff](#)
 - COMING: [Part 4: Rubber...meet the road](#)
 
