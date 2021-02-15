@@ -4,7 +4,7 @@ The goal of this lesson is to show how to create a new webpack instance from the
 
 ## Get Started
 - Navigate to your Cohort Organization in Github
- - EXAMPLE: [nss-evening-cohort-14](https://github.com/nss-evening-cohort-14)
+  - EXAMPLE: [nss-evening-cohort-14](https://github.com/nss-evening-cohort-14)
 - Find in the pinned repos, the `webpack-template` repo
 - Have open the sample [Sorting Hat Project](https://github.com/drteresavasquez/sorting-hat)
 - Watch the video to follow along
