@@ -57,4 +57,9 @@ const init = () => {
 
 init();
 ```
+## Challenge - Modules
+Now that you have had a chance to work with modules, FORK your GitSub project to your own Github account and make the connections locally.
+
+Try modularizing that code and see how far you can get.
+
 
