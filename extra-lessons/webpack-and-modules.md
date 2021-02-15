@@ -40,7 +40,7 @@ The goal of this lesson is to show how to create a new webpack instance from the
 - If you have errors that may have been more cryptic in nature we will walk through errors as a class.
 
 ## Assignment 2 - Modules
-- Video Starter
+- [VIDEO: Modules (~29 minutes)](https://vimeo.com/512731166/679cb602fc) - Let's start modularizing our code
 
 1. Get everything out of the HTML page. The only thing that should be in there is the body tag - create a component for all the stuff that was in the HTML file.
 1. move all other functions into their own files and import/export as needed. The only thing in `main.js` should be the index page load and the button events load like this:
