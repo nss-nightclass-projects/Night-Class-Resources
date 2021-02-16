@@ -24,10 +24,10 @@ The goal of this lesson is to show how to create a new webpack instance from the
 - [Part 4: Rubber...meet the road (~ 8 minutes)](https://vimeo.com/512681084/fba98f6062) - Adding stuff to our app and ERROR ERROR EVERYWHERE!!!!
   - Pull up the [Sample Sorting Hat Project](https://github.com/drteresavasquez/sorting-hat)
   - Copy/paste stuff from Sorting Hat in this order while watching terminal for errors
-    - index.html: https://github.com/drteresavasquez/sorting-hat-webpack/blob/main/src/index.html
-    - remove all CDNs and links to external js and css from index.html
-    - css file: https://github.com/drteresavasquez/sorting-hat-webpack/blob/main/src/styles/main.scss
-    - js file...watch that terminal light up red like it is christmas!: https://github.com/drteresavasquez/sorting-hat-webpack/blob/main/src/javascripts/main.js
+    - index.html
+      - remove all CDNs and links to external js and css from index.html
+    - css file
+    - js file...watch that terminal light up red like it is christmas!
 
 
 ## Assignment 1 - Stop the BLOOD!!!
