@@ -1,5 +1,7 @@
 # Chrome Dev Tools
 
+After reviewing this document, complete the exercise found here: https://developers.google.com/web/tools/chrome-devtools/javascript
+
 Dev tools ⚡super-charge⚡ your ability to customize your web applications and investigate how your code is working. You should **always** have your dev tools open. 👀
 
 Your dev tools contain a wealth of information. But no need to be overwhelmed! You will use some dev tool panels more than others. The red boxes will be most used in this class.
