@@ -60,7 +60,7 @@ NOTE: if after global installation, you have issues, you can run `npm install fi
 5. Modify your `.gitignore` - add the firebase folder `.firebase/`
 
 ### After Changes are made
-So you made some cool new changes to your project.  You did a PR and merged everything to master.  How do you get those changes deployed to firebase?  Easy!  Locally switch to master and pull down the changes.  Then run `npm run deploy`.  Then check that your changes are there.  Firebase does do some caching so if you don't see your changes clear your cache and look again.
+So you made some cool new changes to your project.  You did a PR and merged everything to main.  How do you get those changes deployed to firebase?  Easy!  Locally switch to main and pull down the changes.  Then run `npm run deploy`.  Then check that your changes are there.  Firebase does do some caching so if you don't see your changes clear your cache and look again.
 
 ## If Your Project Is Just Vanilla JS
 ### Setup
