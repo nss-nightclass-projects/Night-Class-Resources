@@ -7,7 +7,7 @@ Now that we have our beginning files in place we need to create a github repo an
 
 ## On your local machine
 * `git remote add origin <ADD SSH STUFF HERE>` (that you copied from the page after creating the repo, remember?)
-* `git push -u origin master`
+* `git push -u origin main`
 
 You should now have all the create-react-app stuff pushed up to github
 
