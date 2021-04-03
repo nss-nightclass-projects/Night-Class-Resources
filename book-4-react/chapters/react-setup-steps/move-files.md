@@ -5,14 +5,13 @@
 All the App stuff should be in a folder together
 1. Create `src/App` and move `App.js` and `App.scss` into there.
 2. Rename `App.js` to `index.js`
-4. Delete `logo.svg`
-5. In `App/index.js` remove logo import statement and image tag
-
+3. Delete `logo.svg`
+4. In `App/index.js` remove logo import statement and image tag
 
 ### File Structure
 Your file structure should now look like this:
 
-![](../../images/scss_App_filestructure.png)
+<img width="230" alt="Screen Shot 2021-04-03 at 6 06 30 PM" src="https://user-images.githubusercontent.com/29741570/113493689-5e735c80-94a7-11eb-8514-e7138bd6885b.png">
 
 [Return to Instructions](../react-setup.md)
 
