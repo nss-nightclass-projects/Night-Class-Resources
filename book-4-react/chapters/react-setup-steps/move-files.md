@@ -3,10 +3,10 @@
 
 ### Create App Folder
 All the App stuff should be in a folder together
-1. Create `src/App` and move App.js and App.scss into there.
-2. Modify App import statement in index.js =  `import App from './App/App';`
-3. Delete `logo.svg`
-4. In App.js remove logo import statement and image tag
+1. Create `src/App` and move `App.js` and `App.scss` into there.
+2. Rename `App.js` to `index.js`
+4. Delete `logo.svg`
+5. In `App/index.js` remove logo import statement and image tag
 
 
 ### File Structure
