@@ -6,6 +6,7 @@ Now that we have our beginning files in place we need to create a github repo an
 * Think back to the start of class: this is what we did way back then, right? So it's nothing new, it's just been a minute
 
 ## On your local machine
+* `git branch -M main`
 * `git remote add origin <ADD SSH STUFF HERE>` (that you copied from the page after creating the repo, remember?)
 * `git push -u origin main`
 
