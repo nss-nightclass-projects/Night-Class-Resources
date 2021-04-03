@@ -38,7 +38,7 @@ Create a setup branch and do all the following steps on that branch
 1. [Move Files](./react-setup-steps/move-files.md)
 1. [Add Eslint](./react-setup-steps/add-eslint.md)
 1. [Add Front End Dependencies](./react-setup-steps/add-fontend-dependencies.md)
-1. [Update App.js](./react-setup-steps/react-classes.md)
+1. [Update `App/index.js]`(./react-setup-steps/react-classes.md)
 
 Try it all out: `npm start`
 
