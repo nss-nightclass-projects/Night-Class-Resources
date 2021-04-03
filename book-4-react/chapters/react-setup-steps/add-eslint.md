@@ -5,16 +5,26 @@
 1. Install VS Code plugin - [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) (you should already have this)
 2. Install airbnb styles
 `npm install eslint-config-airbnb-base --save-dev`
+3. Install React stuff: `npm install --save-dev eslint-plugin-react`
 
 ## Configuration
 Create the `.eslintrc` file at the root of your project like usual and add the following:
 ```
 {
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 9,
-    "sourceType": "module"
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
+  }
   },
-  "extends": "airbnb-base",
+  "extends": [
+    "airbnb-base",
+    "plugin:react/recommended"
+  ],
   "globals": {
     "document": true,
     "window": true,
