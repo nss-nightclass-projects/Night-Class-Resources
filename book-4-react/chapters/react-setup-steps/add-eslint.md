@@ -14,7 +14,7 @@ Create the `.eslintrc` file at the root of your project like usual and add the f
     "ecmaVersion": 9,
     "sourceType": "module"
   },
-  "extends": ["airbnb-base", "react-app"],
+  "extends": "airbnb-base",
   "globals": {
     "document": true,
     "window": true,
@@ -24,15 +24,23 @@ Create the `.eslintrc` file at the root of your project like usual and add the f
   },
   "rules": {
     "no-console": [1, { "allow": ["error", "warn"] }],
+    "comma-dangle": ["error", "only-multiline"],
     "no-debugger": 1,
     "class-methods-use-this": 0,
     "linebreak-style": 0,
-    "max-len": [1,200,2]
+    "max-len": [1,600,2]
   }
 }
 ```
 
+Create `.eslintignore` file at the root of your project like usual and add the following:
+```
+reportWebVitals.js
+```
+
 ## Test it out
+Run `npm start` if you have not already.
+
 Your project should now be running eslint.
 
 To test that it is working go into index.js and change one of the import statements to have double quotes instead of single - this should throw the strings must use single quotes error.
