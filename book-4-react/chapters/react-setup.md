@@ -1,9 +1,6 @@
 # Setting up React
 To set up react we will be using a scaffolding tool called [Create React App](https://github.com/facebook/create-react-app).
 
-[Intro Video](https://www.youtube.com/watch?v=A3vUVQ3OVo0)
-[![Image of Intro Video](./intro.png)](https://www.youtube.com/watch?v=A3vUVQ3OVo0)
-
 ## What is create-react-app?
 create-react-app is a tool built by facebook that quickly sets up a React project.  The project was built with three main goals:
 1. one dependency (webpack does all the things)
@@ -24,9 +21,6 @@ Out of the box we will be able to enjoy the following great features:
 - Install the extension [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en). This will show up in your **dev tools** in the top bar (but only when you are viewing a website that is using react)
 
 ## NEW REACT SETUP STEPS
-
-[Walkthrough Video](https://youtu.be/FOhdgntwJ9A)
-[![Image of React Steps Video](./react-steps.png)](https://youtu.be/FOhdgntwJ9A)
 
 Follow all theses steps (in the order listed) to get your new project up and running:
 1. [Create a new local react project](./react-setup-steps/local-project.md)
