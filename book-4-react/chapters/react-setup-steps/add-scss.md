@@ -6,7 +6,7 @@ By default React comes with regular CSS but only amateurs write real CSS.  Real 
 1.  Install the node-scss package
 
 ```shell
-npm install node-sass --save-dev
+npm i node-sass@4.14.1 --save-dev
 ```
 2.  Rename `index.css` to `index.scss`
 3.  In `index.js` update the import statement to `import './index.scss';`
